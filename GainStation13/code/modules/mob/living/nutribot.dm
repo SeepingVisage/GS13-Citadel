@@ -113,6 +113,58 @@
 /mob/living/simple_animal/bot/nutribot/attack_paw(mob/user)
 	return attack_hand(user)
 
+// Variables sent to TGUI
+/mob/living/simple_animal/bot/nutribot/ui_data(mob/user)
+	var/list/data = ..()
+	if(reagent_glass)
+		data["custom_controls"]["beaker"] = reagent_glass
+		data["custom_contrlos"]["reagents"] = "[reagent_glass.reagents.total_volume]/[reagent_glass.reagents.maximum_volume]"
+	if(!locked || hasSiliconAccessInArea(user) || IsAdminGhost(user))
+		data["custom_controls"]["injection_amount"] = injection_amount
+		data["custom_controls"]["use_beaker"] = use_beaker
+		data["custom_controls"]["feed_threshold"] = feed_threshold
+		data["custom_controls"]["speaker"] = !shut_up
+		data["custom_controls"]["stationary_mode"] = stationary_mode
+	return data
+
+// Actions received from TGUI
+/mob/living/simple_animal/bot/nutribot/ui_act(action, params)
+	. = ..()
+	if(. || !hasSiliconAccessInArea(usr) && !IsAdminGhost(usr) && !(bot_core.allowed(usr) || !locked))
+		return TRUE
+	switch(action)
+		if("feed_threshold")
+			var/adjust_num = round(text2num(params["threshold"]))
+			feed_threshold = adjust_num
+			if(feed_threshold < 5)
+				feed_threshold = 5
+			if(feed_threshold > 75)
+				feed_threshold = 75
+
+		if("injection_amount")
+			var/adjust_num = round(text2num(params["amount"]))
+			injection_amount = adjust_num
+			if(injection_amount < 1)
+				injection_amount = 1
+			if(injection_amount > 15)
+				injection_amount = 15
+
+		if("use_beaker")
+			use_beaker = !use_beaker
+
+		if("eject")
+			if(!isnull(reagent_glass))
+				reagent_glass.forceMove(drop_location())
+				reagent_glass = null
+
+		if("speaker")
+			shut_up = !shut_up
+		if("stationary_mode")
+			stationary_mode = !stationary_mode
+			path = list()
+			update_appearance()
+	return
+
 /mob/living/simple_animal/bot/nutribot/proc/get_controls(mob/user)
 	var/dat
 	dat += "<TT><B>Nutritional Unit Controls v1.1</B></TT><BR><BR>"
@@ -190,7 +242,7 @@
 		if(feed_threshold < 0)
 			feed_threshold = 0
 
-	update_controls()
+//	update_controls()
 	return
 
 /mob/living/simple_animal/bot/nutribot/attackby(obj/item/W as obj, mob/user as mob, params)
@@ -207,7 +259,7 @@
 
 		reagent_glass = W
 		to_chat(user, "<span class='notice'>You insert [W].</span>")
-		show_controls(user)
+//		show_controls(user)
 
 	else
 		var/current_health = health
@@ -594,6 +646,7 @@
 	req_one_access = list(ACCESS_HYDROPONICS, ACCESS_BAR, ACCESS_KITCHEN, ACCESS_ROBOTICS)
 
 /// Add these for now, until it is upgraded to TGUI.
+/*
 /mob/living/simple_animal/bot/nutribot/proc/show_controls(mob/M)
 	users |= M
 	var/dat = ""
@@ -607,6 +660,7 @@
 /mob/living/simple_animal/bot/nutribot/proc/update_controls()
 	for(var/mob/M in users)
 		show_controls(M)
+*/
 
 #undef NUTRIBOT_PANIC_NONE
 #undef NUTRIBOT_PANIC_LOW
