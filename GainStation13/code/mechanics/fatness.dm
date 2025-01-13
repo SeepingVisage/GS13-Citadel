@@ -1,5 +1,8 @@
 GLOBAL_LIST_INIT(uncapped_resize_areas, list(/area/command/bridge, /area/maintenance, /area/security/prison, /area/holodeck, /area/commons/vacant_room/office, /area/space, /area/ruin, /area/lavaland, /area/awaymission, /area/centcom, /area/fatlab))
 
+/mob/living
+	var/burpslurring = 0 //GS13 - necessary due to "say" being defined by mob/living
+
 /mob/living/carbon
 	//Due to the changes needed to create the system to hide fatness, here's some notes:
 	// -If you are making a mob simply gain or lose weight, use adjust_fatness. Try to not touch the variables directly unless you know 'em well
@@ -21,7 +24,6 @@ GLOBAL_LIST_INIT(uncapped_resize_areas, list(/area/command/bridge, /area/mainten
 	var/doorstuck = 0
 
 	var/fullness = FULLNESS_LEVEL_HALF_FULL
-	var/burpslurring = 0
 	var/fullness_reduction_timer = 0 // When was the last time they emoted to reduce their fullness
 
 /**
