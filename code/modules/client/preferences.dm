@@ -1405,6 +1405,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					dat += "<b>Show that you want to be confronted:</b><a href='?_src_=prefs;preference=trouble_seeker'>[trouble_seeker == TRUE ? "Enabled" : "Disabled"]</a><BR>"
 					dat += "<b>Bot Feeding:</b><a href='?_src_=prefs;preference=bot_feeding'>[bot_feeding == TRUE ? "Enabled" : "Disabled"]</a><BR>"
 					dat += "<b>Blueberry Inflation:</b><a href='?_src_=prefs;preference=blueberry_inflation'>[blueberry_inflation == TRUE ? "Enabled" : "Disabled"]</a><BR>"
+					dat += "<b>Gutslap Belch:</b><a href='?_src_=prefs;preference=gutslap_belch'>[gutslap_belch == TRUE ? "Enabled" : "Disabled"]</a><BR>"
 
 					dat += "<h2>Weight Gain Types</h2>"
 					dat += "<b>Food:</b><a href='?_src_=prefs;preference=weight_gain_food'>[weight_gain_food == TRUE ? "Enabled" : "Disabled"]</a><BR>"
@@ -3491,6 +3492,8 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					trouble_seeker = !trouble_seeker
 				if("bot_feeding")
 					bot_feeding = !bot_feeding
+				if("gutslap_belch")
+					gutslap_belch = !gutslap_belch
 				if("stuckage")
 					stuckage = chose_weight("Choose the level of fatness where your weight will hinder your ability to go through airlocks? None will disable this alltogether", user)
 				if("chair_breakage")

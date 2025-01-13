@@ -67,6 +67,9 @@
 	//Does the person wish to be fed from bots?
 	var/bot_feeding = FALSE
 
+	//Does the person wish to belch when slapped on the gut?
+	var/gutslap_belch = FALSE
+
 	///What is the max weight that the person wishes to be? If set to FALSE, there will be no max weight
 	var/max_weight = FALSE
 

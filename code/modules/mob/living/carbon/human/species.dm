@@ -1927,7 +1927,7 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 				"<span class='danger'>\The [user] slaps [user == target ? "[user.p_their()] own" : "\the [target]'s"] gut!</span>",\
 				"<span class='notice'>[user] slaps your gut! </span>",\
 				"You hear a slap.", target = user, target_message = "<span class='notice'>You slap [user == target ? "your own" : "\the [target]'s"] gut! </span>")
-			if(target.fullness > 10)
+			if(target.fullness > 10 && target.client?.prefs.gutslap_belch)
 				to_chat(target, "<span class='danger'><B>The pressure on your stomach causes you to belch!</B></span>")
 				target.emote(pick("belch","burp"))
 
