@@ -175,3 +175,34 @@
 // 	var/nutrition_amount = 20 // somewhere around 5 pounds
 // 	var/fullness_to_add = 10
 // 	var/message = "<span class='notice'>You feel fuller...</span>" // GS13
+
+datum/reagent/microcalorite
+	name = "Micro-Calorite"
+	description = "Miniature crystallized shards of calorite. Kind of like asbestos."
+	taste_description = "pointy"
+	reagent_state = SOLID
+	color = "#ea9459"
+	metabolization_rate = 0
+
+datum/reagent/microcalorite/on_mob_life(mob/living/carbon/M)
+	var/calorite_amount = M.reagents.get_reagent_amount(/datum/reagent/microcalorite)
+	M.adjust_fatness(calorite_amount*0.01, FATTENING_TYPE_CHEM)
+	if(M.reagents.get_reagent(/datum/reagent/medicine/lipolicide)) //micro-calorite neutralizes lipolicide.. muahahah..
+		M.reagents.remove_reagent(/datum/reagent/medicine/lipolicide, calorite_amount)
+	return ..()
+
+datum/reagent/microcalorite/on_mob_add(mob/living/carbon/M)
+	. = ..()
+	if(iscarbon(M))
+		var/mob/living/carbon/C = M
+		C.nutri_mult += 0.25
+		if(C.weight_loss_rate > 0)
+			C.weight_loss_rate *= 0.5
+
+datum/reagent/microcalorite/on_mob_delete(mob/living/carbon/M)
+	. = ..()
+	if(iscarbon(M))
+		var/mob/living/carbon/C = M
+		C.nutri_mult -= 0.25
+		if(C.weight_loss_rate > 0)
+			C.weight_loss_rate *= 2
