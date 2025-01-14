@@ -175,3 +175,28 @@
 // 	var/nutrition_amount = 20 // somewhere around 5 pounds
 // 	var/fullness_to_add = 10
 // 	var/message = "<span class='notice'>You feel fuller...</span>" // GS13
+
+datum/reagent/cholesterol
+	name = "Cholesterol"
+	description = "Fatty, greasy. Shame that the best tasting food has this."
+	overdose_threshold = 50
+	taste_description = "oily"
+	reagent_state = LIQUID
+	color = "#ece9c9"
+	metabolization_rate = 0.2 * REAGENTS_METABOLISM
+
+datum/reagent/cholesterol/on_mob_life(mob/living/carbon/M)
+	. = ..()
+	var/cholesterol_amount = M.reagents.get_reagent_amount(/datum/reagent/cholesterol)
+	if(cholesterol_amount > 20)
+		M.adjustOrganLoss(ORGAN_SLOT_HEART, 0.1*REAGENTS_EFFECT_MULTIPLIER*(cholesterol_amount-20))
+		if(prob(10))
+			to_chat(M, "<span class='redtext'>You feel a slight pain in your chest...</span>")
+
+datum/reagent/cholesterol/overdose_process(mob/living/carbon/M)
+	. = ..()
+	var/cholesterol_amount = M.reagents.get_reagent_amount(/datum/reagent/cholesterol)
+	M.adjustOrganLoss(ORGAN_SLOT_HEART, 0.2*REAGENTS_EFFECT_MULTIPLIER*(cholesterol_amount))
+	if(prob(40))
+		var/cholesterol_message = pick("You feel a numbness in your extremities!", "You feel greasy!", "You feel unhealthy!", "Maybe another burger would fix this?", "Is that heartburn, or..?")
+		to_chat(M, "<span class='userdanger'>[cholesterol_message]</span>")

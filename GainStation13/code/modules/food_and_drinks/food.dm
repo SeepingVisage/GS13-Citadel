@@ -263,3 +263,14 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/medicine/omnizine = 1, /datum/reagent/tranquility = 5)
 	tastes = list("meat" = 2, "dough" = 2, "inner peace" = 1)
 	foodtype = GRAIN
+
+/obj/item/reagent_containers/food/snacks/burger/the_monster
+	name = "THE MONSTER"
+	desc = "HOLY SHIT"
+	bitesize = 7
+	icon_state = "bigbiteburger"
+	list_reagents = list(/datum/reagent/consumable/nutriment = 40, /datum/reagent/cholesterol = 75)
+	tastes = list("your doom" = 1, "dough" = 2, "meat" = 2, "grease" = 2)
+	eatverb = "chomp"
+	w_class = WEIGHT_CLASS_BULKY
+

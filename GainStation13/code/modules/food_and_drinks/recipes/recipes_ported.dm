@@ -124,3 +124,10 @@
 	)
 	result = /obj/item/reagent_containers/food/snacks/soup/lavaland_stew
 	subcategory = CAT_SOUP
+
+/datum/crafting_recipe/food/the_monster
+	name = "THE MONSTER"
+	reqs = list(/obj/item/reagent_containers/food/snacks/burger/bigbite = 4)
+	result = /obj/item/reagent_containers/food/snacks/burger/the_monster
+	subcategory = CAT_BURGER
+
