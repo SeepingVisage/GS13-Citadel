@@ -131,3 +131,8 @@
 	result = /obj/item/reagent_containers/food/snacks/burger/the_monster
 	subcategory = CAT_BURGER
 
+/datum/crafting_recipe/food/pizzeract
+	name = "Pizzeract"
+	reqs = list(/obj/item/reagent_containers/food/snacks/pizza/margherita = 4)
+	result = /obj/item/reagent_containers/food/snacks/pizza/pizzeract
+	subcategory = CAT_PIZZA

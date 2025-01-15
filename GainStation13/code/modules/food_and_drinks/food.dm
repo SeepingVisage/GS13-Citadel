@@ -274,3 +274,20 @@
 	eatverb = "chomp"
 	w_class = WEIGHT_CLASS_BULKY
 
+obj/item/reagent_containers/food/snacks/pizza/pizzeract
+	name = "Pizzeract"
+	desc = "Four pizzas stacked on top of each-other, like a cake."
+	list_reagents = list(/datum/reagent/consumable/nutriment = 120, /datum/reagent/cholesterol = 60)
+	slice_path = /obj/item/reagent_containers/food/snacks/pizzaslice/pizzeractslice
+	slices_num = 4
+	tastes = list("greasy" = 1, "dough" = 2, "meat" = 2, "tomato sauce" = 2)
+	w_class = WEIGHT_CLASS_BULKY
+
+obj/item/reagent_containers/food/snacks/pizzaslice/pizzeractslice
+	name = "Pizzeract Slice"
+	desc = "A cross-section of four pizza slices stacked on top of each other."
+	slice_path = /obj/item/reagent_containers/food/snacks/pizzaslice/margherita
+	slices_num = 4
+	list_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/cholesterol = 15)
+	tastes = list("greasy" = 1, "dough" = 2, "meat" = 2, "tomato sauce" = 2)
+	w_class = WEIGHT_CLASS_NORMAL
