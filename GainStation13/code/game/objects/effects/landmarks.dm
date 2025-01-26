@@ -20,7 +20,7 @@
 /datum/map_template/ruin/station/box/bar/gambler
 	id = "bar_gambler"
 	suffix = "Box/Bar/bar_gambler.dmm"
-	name = "Box Gambler"
+	name = "Box Googley"
 
 /datum/map_template/ruin/station/box/bar/griller
 	id = "bar_griller"
