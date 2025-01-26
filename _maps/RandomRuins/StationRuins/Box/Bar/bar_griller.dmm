@@ -1,0 +1,55 @@
+"a" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/maintenance/port/aft)
+"b" = (/obj/structure/chair/beanbag/red{dir = 8},/turf/open/floor/wood{icon_state = "wood-broken4"},/area/maintenance/bar)
+"c" = (/obj/machinery/light/small{dir = 4},/turf/open/floor/wood,/area/maintenance/bar)
+"d" = (/obj/effect/landmark/xeno_spawn,/turf/open/floor/wood,/area/maintenance/bar)
+"f" = (/obj/structure/table/wood,/turf/open/floor/wood,/area/maintenance/bar)
+"g" = (/turf/open/floor/wood,/area/maintenance/bar)
+"h" = (/turf/open/floor/wood{icon_state = "wood-broken7"},/area/maintenance/bar)
+"j" = (/obj/machinery/door/airlock/maintenance,/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/wood,/area/maintenance/port/aft)
+"k" = (/obj/machinery/deepfryer,/turf/open/floor/wood,/area/maintenance/bar)
+"l" = (/obj/structure/table/wood,/obj/item/reagent_containers/food/drinks/bigbottle/cola,/turf/open/floor/carpet/red,/area/maintenance/bar)
+"m" = (/turf/open/floor/wood{icon_state = "wood-broken4"},/area/maintenance/bar)
+"n" = (/obj/machinery/vending/boozeomat/all_access,/turf/closed/wall,/area/maintenance/bar)
+"p" = (/obj/structure/cable{icon_state = "1-8"},/turf/open/floor/wood,/area/maintenance/bar)
+"q" = (/obj/effect/spawner/lootdrop/keg,/turf/open/floor/wood,/area/maintenance/bar)
+"r" = (/obj/structure/table/wood,/obj/item/book/manual/blubbery_bartender,/turf/open/floor/carpet/red,/area/maintenance/bar)
+"s" = (/turf/open/floor/wood{icon_state = "wood-broken6"},/area/maintenance/bar)
+"t" = (/obj/machinery/grill,/turf/open/floor/wood,/area/maintenance/bar)
+"u" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/maintenance/port/aft)
+"w" = (/turf/open/floor/carpet/red,/area/maintenance/bar)
+"x" = (/obj/structure/table/wood,/obj/item/reagent_containers/rag,/obj/machinery/light/small{dir = 1},/turf/open/floor/carpet/red,/area/maintenance/bar)
+"y" = (/obj/structure/table/wood,/obj/item/trash/candle,/turf/open/floor/carpet/red,/area/maintenance/bar)
+"z" = (/obj/structure/reagent_dispensers/keg/gargle,/turf/open/floor/wood,/area/maintenance/bar)
+"A" = (/obj/structure/mineral_door/wood,/turf/open/floor/wood,/area/maintenance/bar)
+"C" = (/obj/machinery/light/small{dir = 8},/turf/open/floor/wood,/area/maintenance/bar)
+"D" = (/obj/machinery/power/apc{areastring = "/area/maintenance/bar"; dir = 1; name = "Maintenance Bar APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-4"},/turf/open/floor/wood,/area/maintenance/bar)
+"F" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/closed/wall,/area/maintenance/port/aft)
+"G" = (/obj/structure/closet/secure_closet/freezer/kitchen/maintenance,/turf/open/floor/wood,/area/maintenance/bar)
+"K" = (/obj/structure/chair/wood/normal,/turf/open/floor/carpet/red,/area/maintenance/bar)
+"M" = (/obj/structure/table/wood,/obj/item/trash/raisins,/turf/open/floor/carpet/red,/area/maintenance/bar)
+"O" = (/obj/structure/chair/wood/normal{dir = 1},/turf/open/floor/carpet/red,/area/maintenance/bar)
+"P" = (/obj/structure/table/wood,/turf/open/floor/carpet/red,/area/maintenance/bar)
+"Q" = (/turf/closed/wall,/area/maintenance/port/aft)
+"R" = (/turf/template_noop,/area/template_noop)
+"S" = (/obj/item/reagent_containers/food/snacks/meat/slab,/obj/item/reagent_containers/food/snacks/meat/slab,/turf/open/floor/wood,/area/maintenance/bar)
+"T" = (/obj/structure/chair/beanbag/red{dir = 8},/turf/open/floor/wood,/area/maintenance/bar)
+"V" = (/obj/item/stack/sheet/mineral/coal,/obj/item/stack/sheet/mineral/coal,/turf/open/floor/wood,/area/maintenance/bar)
+"W" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 5},/turf/closed/wall,/area/maintenance/port/aft)
+"X" = (/turf/closed/wall,/area/maintenance/bar)
+"Y" = (/turf/open/floor/wood{icon_state = "wood-broken5"},/area/maintenance/bar)
+"Z" = (/obj/structure/chair/stool/bar,/turf/open/floor/carpet/red,/area/maintenance/bar)
+
+(1,1,1) = {"
+RRQQQQQjQQF
+RRQgAgDpggF
+RRQgXgYhgcF
+QQngxZwwKKF
+QzggPZwwMlu
+QCdgPZwwPyu
+QqsgrZwwOOu
+QGmYfgggggu
+QkggfbggggF
+QtShfTgYgcF
+QVggfhggggF
+QQQQQaaaaQW
+"}

@@ -1,0 +1,63 @@
+"a" = (/turf/open/floor/wood,/area/maintenance/bar)
+"b" = (/turf/open/floor/wood{icon_state = "wood-broken7"},/area/maintenance/bar)
+"c" = (/obj/structure/chair/wood/normal{dir = 4},/turf/open/floor/wood,/area/maintenance/bar)
+"d" = (/obj/machinery/light/small/broken{dir = 4},/obj/structure/chair/wood/normal{dir = 8},/turf/open/floor/wood,/area/maintenance/bar)
+"e" = (/obj/machinery/light/small{dir = 4},/turf/open/floor/wood,/area/maintenance/bar)
+"f" = (/obj/structure/cable{icon_state = "1-2"},/obj/structure/mineral_door/wood,/turf/open/floor/wood,/area/maintenance/port/aft)
+"g" = (/turf/open/floor/wood{icon_state = "wood-broken6"},/area/maintenance/bar)
+"h" = (/obj/structure/chair/wood/normal{dir = 1},/turf/open/floor/carpet/green,/area/maintenance/bar)
+"i" = (/obj/machinery/power/apc{areastring = "/area/maintenance/bar"; dir = 1; name = "Maintenance Bar APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-4"},/turf/open/floor/wood,/area/maintenance/bar)
+"j" = (/obj/structure/table/wood,/obj/item/toy/cards/deck,/turf/open/floor/wood{icon_state = "wood-broken5"},/area/maintenance/bar)
+"k" = (/obj/structure/table/wood,/turf/open/floor/carpet/green,/area/maintenance/bar)
+"l" = (/obj/structure/table/wood,/obj/item/reagent_containers/food/drinks/bigbottle/cola,/turf/open/floor/carpet/green,/area/maintenance/bar)
+"n" = (/obj/structure/table/wood,/obj/item/trash/candle,/turf/open/floor/carpet/green,/area/maintenance/bar)
+"o" = (/obj/structure/frame/computer{dir = 1},/turf/open/floor/carpet/arcade,/area/maintenance/bar)
+"r" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/maintenance/port/aft)
+"s" = (/obj/structure/table/wood,/obj/item/reagent_containers/rag,/obj/machinery/light/small{dir = 1},/turf/open/floor/carpet/green,/area/maintenance/bar)
+"t" = (/obj/structure/chair/stool/bar,/turf/open/floor/carpet/green,/area/maintenance/bar)
+"u" = (/obj/effect/spawner/lootdrop/keg,/turf/open/floor/wood,/area/maintenance/bar)
+"v" = (/obj/structure/table/wood,/obj/item/book/manual/blubbery_bartender,/turf/open/floor/carpet/green,/area/maintenance/bar)
+"w" = (/obj/structure/table/wood,/turf/open/floor/wood,/area/maintenance/bar)
+"x" = (/obj/effect/landmark/xeno_spawn,/turf/open/floor/wood,/area/maintenance/bar)
+"y" = (/obj/structure/reagent_dispensers/keg/gargle,/turf/open/floor/wood,/area/maintenance/bar)
+"z" = (/obj/structure/table/wood,/obj/item/trash/raisins,/turf/open/floor/carpet/green,/area/maintenance/bar)
+"A" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/closed/wall/mineral/wood,/area/maintenance/port/aft)
+"B" = (/obj/structure/mineral_door/wood,/turf/open/floor/wood,/area/maintenance/bar)
+"C" = (/obj/item/circuitboard/computer/slot_machine,/obj/item/circuitboard/computer/slot_machine,/obj/effect/spawner/lootdrop/arcadeboards,/turf/open/floor/wood,/area/maintenance/bar)
+"D" = (/obj/structure/chair/wood/normal,/turf/open/floor/wood,/area/maintenance/bar)
+"F" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 5},/turf/closed/wall/mineral/wood,/area/maintenance/port/aft)
+"G" = (/obj/structure/chair/wood/normal{dir = 1},/turf/open/floor/wood,/area/maintenance/bar)
+"H" = (/turf/template_noop,/area/template_noop)
+"I" = (/obj/machinery/vending/boozeomat/all_access,/turf/closed/wall,/area/maintenance/bar)
+"J" = (/turf/open/floor/wood{icon_state = "wood-broken5"},/area/maintenance/bar)
+"K" = (/turf/open/floor/carpet/arcade,/area/maintenance/bar)
+"L" = (/turf/closed/wall/mineral/wood,/area/maintenance/port/aft)
+"M" = (/obj/machinery/vending/cigarette,/turf/open/floor/wood,/area/maintenance/bar)
+"N" = (/obj/structure/chair/wood/normal,/turf/open/floor/carpet/green,/area/maintenance/bar)
+"O" = (/obj/structure/cable{icon_state = "1-8"},/turf/open/floor/wood,/area/maintenance/bar)
+"P" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/maintenance/port/aft)
+"Q" = (/obj/structure/chair/comfy,/obj/effect/spawner/lootdrop/coin,/turf/open/floor/carpet/arcade,/area/maintenance/bar)
+"R" = (/obj/structure/window{dir = 1},/turf/open/floor/carpet/arcade,/area/maintenance/bar)
+"S" = (/obj/machinery/vending/sustenance,/turf/open/floor/wood,/area/maintenance/bar)
+"T" = (/turf/open/floor/carpet/green,/area/maintenance/bar)
+"U" = (/obj/structure/frame/computer,/obj/structure/window{dir = 1},/turf/open/floor/carpet/arcade,/area/maintenance/bar)
+"V" = (/turf/closed/wall/mineral/wood,/area/maintenance/bar)
+"W" = (/obj/structure/chair/comfy{dir = 1},/obj/effect/spawner/lootdrop/coin,/turf/open/floor/carpet/arcade,/area/maintenance/bar)
+"X" = (/obj/machinery/light/small{dir = 8},/turf/open/floor/wood,/area/maintenance/bar)
+"Y" = (/obj/structure/chair/comfy,/obj/machinery/light/small/broken{dir = 8},/turf/open/floor/carpet/arcade,/area/maintenance/bar)
+"Z" = (/obj/structure/chair/wood/normal{dir = 8},/turf/open/floor/wood,/area/maintenance/bar)
+
+(1,1,1) = {"
+HHLLLLLfLLA
+HHLaBaiOSMA
+HHLaVaJbaeA
+LLIastTTNNA
+LCaaktTTzlP
+LXxaktTTknP
+LugyvtTThhP
+LUURRJaDDaP
+LWWKKacjwZA
+LYQKKacwwdA
+LooKKgaGGgA
+LLLLLrrrrLF
+"}

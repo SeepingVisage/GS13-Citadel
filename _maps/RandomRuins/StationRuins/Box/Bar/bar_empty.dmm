@@ -1,0 +1,45 @@
+"a" = (/obj/structure/table/wood,/obj/item/book/manual/blubbery_bartender,/turf/open/floor/carpet/red,/area/maintenance/bar)
+"b" = (/obj/structure/table/wood,/turf/open/floor/wood{icon_state = "wood-broken4"},/area/maintenance/bar)
+"c" = (/turf/open/floor/wood{icon_state = "wood-broken7"},/area/maintenance/bar)
+"d" = (/obj/structure/mineral_door/wood,/turf/open/floor/wood,/area/maintenance/bar)
+"e" = (/turf/open/floor/carpet/red,/area/maintenance/bar)
+"f" = (/obj/structure/cable{icon_state = "1-8"},/turf/open/floor/wood,/area/maintenance/bar)
+"g" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 5},/turf/closed/wall,/area/maintenance/port/aft)
+"h" = (/obj/structure/table/wood,/turf/open/floor/carpet/red,/area/maintenance/bar)
+"i" = (/obj/machinery/vending/boozeomat/all_access,/turf/closed/wall,/area/maintenance/bar)
+"j" = (/turf/open/floor/wood,/area/maintenance/bar)
+"n" = (/turf/template_noop,/area/template_noop)
+"p" = (/obj/structure/table/wood,/obj/item/reagent_containers/rag,/obj/machinery/light/small{dir = 1},/turf/open/floor/carpet/red,/area/maintenance/bar)
+"q" = (/obj/structure/reagent_dispensers/keg/gargle,/turf/open/floor/wood,/area/maintenance/bar)
+"r" = (/obj/structure/table/wood,/turf/open/floor/wood,/area/maintenance/bar)
+"s" = (/obj/machinery/light/small{dir = 8},/turf/open/floor/wood,/area/maintenance/bar)
+"t" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/maintenance/port/aft)
+"w" = (/obj/machinery/power/apc{areastring = "/area/maintenance/bar"; dir = 1; name = "Maintenance Bar APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-4"},/turf/open/floor/wood,/area/maintenance/bar)
+"x" = (/obj/effect/spawner/lootdrop/keg,/turf/open/floor/wood,/area/maintenance/bar)
+"y" = (/turf/open/floor/wood{icon_state = "wood-broken6"},/area/maintenance/bar)
+"z" = (/turf/open/floor/wood{icon_state = "wood-broken5"},/area/maintenance/bar)
+"A" = (/turf/open/floor/wood{icon_state = "wood-broken4"},/area/maintenance/bar)
+"B" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/closed/wall,/area/maintenance/port/aft)
+"E" = (/turf/closed/wall,/area/maintenance/port/aft)
+"G" = (/obj/machinery/door/airlock/maintenance,/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/wood,/area/maintenance/port/aft)
+"I" = (/obj/effect/landmark/xeno_spawn,/turf/open/floor/wood,/area/maintenance/bar)
+"N" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/maintenance/port/aft)
+"P" = (/obj/machinery/light/small{dir = 4},/turf/open/floor/wood,/area/maintenance/bar)
+"T" = (/obj/structure/chair/stool/bar,/turf/open/floor/carpet/red,/area/maintenance/bar)
+"V" = (/obj/structure/table/wood,/turf/open/floor/wood{icon_state = "wood-broken5"},/area/maintenance/bar)
+"Z" = (/turf/closed/wall,/area/maintenance/bar)
+
+(1,1,1) = {"
+nnEEEEEGEEB
+nnEjdjwfjjB
+nnEjZjzcjPB
+EEijpTeeeeB
+EjjjhTeeeet
+EsIjhTeeeet
+ExyqaTeeeet
+ErbVrjjjjjt
+EjjjjAjjjjB
+EjjcjjjzjPB
+EjjjjcjjjjB
+EEEEENNNNEg
+"}

@@ -3958,6 +3958,7 @@
 #include "GainStation13\code\game\area\ruins.dm"
 #include "GainStation13\code\game\objects\tiles.dm"
 #include "GainStation13\code\game\objects\turfs.dm"
+#include "GainStation13\code\game\objects\effects\landmarks.dm"
 #include "GainStation13\code\game\objects\effects\posters.dm"
 #include "GainStation13\code\game\objects\effects\decals\cleanable\misc.dm"
 #include "GainStation13\code\game\objects\effects\spawners\choco_slime_delivery.dm"
