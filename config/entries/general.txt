@@ -474,9 +474,10 @@ BOX_RANDOM_ENGINE Box RBMK,3
 
 ##Choose which Bar to start the round with. Weight is after the comma. Setting the weight to 0 removes the bar from rotation.
 BOX_RANDOM_BAR Box Default,0
-BOX_RANDOM_BAR Box Googley,3
+BOX_RANDOM_BAR Box Googley,0
+BOX_RANDOM_BAR Box Greeble,0
 BOX_RANDOM_BAR Box Griller,0
-BOX_RANDOM_BAR Box Botany,0
+BOX_RANDOM_BAR Box Botany,3
 
 ## Whether the suicide verb is allowed.
 # SUICIDE_ALLOWED

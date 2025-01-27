@@ -1,0 +1,77 @@
+"ap" = (/obj/structure/chair/wood/normal,/turf/open/floor/carpet/red,/area/maintenance/bar)
+"ax" = (/obj/structure/chair/wood/normal{dir = 1},/turf/open/floor/carpet/green,/area/maintenance/bar)
+"aQ" = (/turf/closed/wall,/area/maintenance/bar)
+"bq" = (/turf/open/floor/carpet/red,/area/maintenance/bar)
+"bI" = (/obj/item/clothing/mask/cigarette/cigar{pixel_x = 10},/obj/structure/table/wood/poker,/turf/open/floor/carpet/red,/area/maintenance/bar)
+"bU" = (/obj/machinery/light/small{dir = 8},/obj/structure/table,/obj/machinery/chem_dispenser/drinks/beer{dir = 4},/turf/open/floor/plasteel,/area/maintenance/bar)
+"ch" = (/obj/structure/chair/stool/bar,/obj/item/circuitboard/computer/slot_machine,/turf/open/floor/carpet/arcade,/area/maintenance/bar)
+"fc" = (/turf/template_noop,/area/template_noop)
+"ff" = (/obj/structure/falsewall,/turf/open/floor/plating,/area/maintenance/bar)
+"gs" = (/obj/structure/table/wood,/obj/item/reagent_containers/food/drinks/bigbottle/cola{pixel_y = -8; pixel_x = -8},/turf/open/floor/carpet/green,/area/maintenance/bar)
+"hJ" = (/obj/structure/chair/stool/bar,/obj/effect/spawner/lootdrop/arcadeboards,/turf/open/floor/carpet/arcade,/area/maintenance/bar)
+"jN" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 5},/turf/closed/wall,/area/maintenance/port/aft)
+"jZ" = (/obj/structure/chair/stool/bar,/turf/open/floor/wood,/area/maintenance/bar)
+"kl" = (/obj/effect/turf_decal/tile/bar{dir = 8},/obj/effect/turf_decal/tile/bar{dir = 4},/obj/effect/turf_decal/loading_area{dir = 8; icon_state = "drain"; name = "drain"},/turf/open/floor/plasteel/checker,/area/maintenance/bar)
+"mj" = (/obj/item/cigbutt{pixel_y = -3; pixel_x = -20},/turf/open/floor/wood,/area/maintenance/bar)
+"mN" = (/turf/open/floor/wood/damturf/broken3,/area/maintenance/bar)
+"na" = (/obj/item/chair/wood,/turf/open/floor/carpet/red,/area/maintenance/bar)
+"no" = (/obj/machinery/vending/boozeomat/all_access,/turf/closed/wall,/area/maintenance/bar)
+"oh" = (/obj/structure/chair/stool/bar,/obj/item/cigbutt{pixel_x = 8},/turf/open/floor/wood,/area/maintenance/bar)
+"on" = (/obj/structure/reagent_dispensers/keg/gargle,/obj/effect/turf_decal/tile/bar{dir = 8},/obj/effect/turf_decal/tile/bar{dir = 4},/turf/open/floor/plasteel/checker,/area/maintenance/bar)
+"oq" = (/turf/open/floor/wood/damturf/broken1,/area/maintenance/bar)
+"qc" = (/turf/open/floor/wood/damturf/broken6,/area/maintenance/bar)
+"sc" = (/obj/item/book/manual/blubbery_bartender,/obj/structure/table,/obj/effect/turf_decal/tile/bar{dir = 8},/obj/effect/turf_decal/tile/bar{dir = 4},/obj/effect/turf_decal/loading_area{dir = 4; icon_state = "steel_decals10"},/obj/effect/turf_decal/loading_area{icon_state = "steel_decals10"},/turf/open/floor/plasteel/checker,/area/maintenance/bar)
+"tX" = (/obj/item/ashtray{pixel_y = -16; pixel_x = 16},/obj/item/toy/cards/deck{pixel_x = 7; pixel_y = 9},/obj/effect/decal/cleanable/vomit,/obj/structure/table/wood/poker,/turf/open/floor/carpet/red,/area/maintenance/bar)
+"vb" = (/turf/open/floor/plasteel,/area/maintenance/bar)
+"wU" = (/obj/effect/turf_decal/tile/bar{dir = 8},/obj/effect/turf_decal/tile/bar{dir = 4},/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "drain"; name = "drain"},/turf/open/floor/plasteel/checker,/area/maintenance/bar)
+"xn" = (/turf/open/floor/wood,/area/maintenance/bar)
+"xK" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/maintenance/port/aft)
+"ya" = (/obj/structure/table,/obj/machinery/chem_dispenser/drinks{dir = 4},/turf/open/floor/plasteel,/area/maintenance/bar)
+"yp" = (/obj/structure/table/wood,/obj/item/trash/candle,/turf/open/floor/carpet/green,/area/maintenance/bar)
+"zm" = (/turf/open/floor/carpet/green,/area/maintenance/bar)
+"zF" = (/turf/open/floor/wood/damturf/broken2,/area/maintenance/bar)
+"CF" = (/obj/machinery/power/apc{areastring = "/area/maintenance/bar"; dir = 1; name = "Maintenance Bar APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-4"},/turf/open/floor/wood,/area/maintenance/bar)
+"Dx" = (/turf/closed/wall,/area/maintenance/port/aft)
+"Et" = (/obj/machinery/light/small{dir = 4},/turf/open/floor/wood,/area/maintenance/bar)
+"EF" = (/obj/machinery/vending/sustenance,/turf/open/floor/wood,/area/maintenance/bar)
+"Fc" = (/obj/effect/turf_decal/tile/bar{dir = 8},/obj/effect/turf_decal/tile/bar{dir = 4},/turf/open/floor/plasteel/checker,/area/maintenance/bar)
+"FK" = (/obj/structure/chair/wood/normal,/turf/open/floor/carpet/green,/area/maintenance/bar)
+"Ie" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/closed/wall,/area/maintenance/port/aft)
+"IP" = (/obj/effect/spawner/lootdrop/coin,/turf/open/floor/plating,/area/maintenance/bar)
+"Jk" = (/obj/structure/frame/computer{dir = 4; state = 1; anchored = 1},/turf/open/floor/carpet/arcade,/area/maintenance/bar)
+"Jl" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/door/airlock/public,/turf/open/floor/wood,/area/maintenance/port/aft)
+"JB" = (/obj/effect/landmark/xeno_spawn,/obj/effect/turf_decal/tile/bar{dir = 8},/obj/effect/turf_decal/tile/bar{dir = 4},/obj/effect/turf_decal/loading_area{dir = 8; icon_state = "drain"; name = "drain"},/turf/open/floor/plasteel/checker,/area/maintenance/bar)
+"Lr" = (/obj/structure/chair/stool/bar,/obj/item/cigbutt{pixel_y = -12},/obj/item/cigbutt{pixel_y = 12; pixel_x = -8},/turf/open/floor/wood/damturf/broken7,/area/maintenance/bar)
+"Np" = (/obj/structure/cable{icon_state = "1-8"},/turf/open/floor/wood,/area/maintenance/bar)
+"Pr" = (/obj/machinery/light/small/broken{dir = 4},/obj/structure/chair/wood/normal{dir = 8},/turf/open/floor/carpet/red,/area/maintenance/bar)
+"Sq" = (/obj/item/kirbyplants/random,/turf/open/floor/wood,/area/maintenance/bar)
+"TB" = (/obj/structure/table,/obj/item/ashtray{pixel_y = -16},/obj/effect/turf_decal/tile/bar{dir = 8},/obj/effect/turf_decal/tile/bar{dir = 4},/obj/effect/turf_decal/loading_area{dir = 4; icon_state = "steel_decals10"},/obj/effect/turf_decal/loading_area{icon_state = "steel_decals10"},/obj/item/storage/box/drinkingglasses{pixel_x = 0; pixel_y = 9},/turf/open/floor/plasteel/checker,/area/maintenance/bar)
+"TZ" = (/obj/item/trash/can{pixel_x = 6; pixel_y = 12},/turf/open/floor/carpet/green,/area/maintenance/bar)
+"Ue" = (/obj/item/chair/wood,/turf/open/floor/carpet/green,/area/maintenance/bar)
+"Uf" = (/obj/structure/chair/stool/bar,/turf/open/floor/carpet/arcade,/area/maintenance/bar)
+"UG" = (/obj/structure/chair/wood/normal{dir = 4},/turf/open/floor/carpet/red,/area/maintenance/bar)
+"Vo" = (/obj/structure/table,/obj/effect/turf_decal/tile/bar{dir = 8},/obj/effect/turf_decal/tile/bar{dir = 4},/obj/effect/turf_decal/loading_area{dir = 4; icon_state = "steel_decals10"},/obj/effect/turf_decal/loading_area{icon_state = "steel_decals10"},/turf/open/floor/plasteel/checker,/area/maintenance/bar)
+"Vt" = (/obj/machinery/door/airlock/public{dir = 4},/obj/effect/turf_decal/tile/bar{dir = 8},/obj/effect/turf_decal/tile/bar{dir = 4},/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "drain"; name = "drain"},/turf/open/floor/plasteel/checker,/area/maintenance/bar)
+"Wx" = (/obj/structure/table/wood,/turf/open/floor/carpet/green,/area/maintenance/bar)
+"Xd" = (/obj/item/trash/sosjerky{pixel_y = 20; pixel_x = -25},/turf/open/floor/wood,/area/maintenance/bar)
+"Yd" = (/obj/structure/table/wood/poker,/turf/open/floor/carpet/red,/area/maintenance/bar)
+"YC" = (/obj/machinery/vending/cigarette,/turf/open/floor/wood,/area/maintenance/bar)
+"Zu" = (/obj/item/kirbyplants/random,/turf/open/floor/wood/damturf/broken4,/area/maintenance/bar)
+"ZA" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/maintenance/port/aft)
+"ZF" = (/obj/item/reagent_containers/rag,/obj/machinery/light/small{dir = 1},/obj/structure/table,/obj/effect/turf_decal/tile/bar{dir = 8},/obj/effect/turf_decal/tile/bar{dir = 4},/obj/effect/turf_decal/loading_area{dir = 4; icon_state = "steel_decals10"},/obj/effect/turf_decal/loading_area{icon_state = "steel_decals10"},/turf/open/floor/plasteel/checker,/area/maintenance/bar)
+"ZT" = (/obj/item/cigbutt/cigarbutt,/turf/open/floor/carpet/red,/area/maintenance/bar)
+
+(1,1,1) = {"
+fcfcDxDxDxDxDxJlDxDxIe
+fcfcDxwUVtmNCFNpEFYCIe
+fcfcDxFcaQSqxnxnoqEtIe
+DxDxnoFcZFjZzFzmFKFKIe
+DxyaklFcTBLrxnTZWxgsZA
+DxbUJBFcVoohmjzmWxypZA
+DxvbklonscjZxnzmUeaxZA
+DxffaQaQaQZuxnXdqcxnZA
+DxIPaQJkUfmNbqapapZTIe
+DxIPaQJkhJxnUGtXYdPrIe
+DxIPaQJkchxnUGYdbInaIe
+DxDxDxDxDxxKxKxKxKDxjN
+"}

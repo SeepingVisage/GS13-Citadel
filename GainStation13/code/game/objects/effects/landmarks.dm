@@ -22,6 +22,11 @@
 	suffix = "Box/Bar/bar_gambler.dmm"
 	name = "Box Googley"
 
+/datum/map_template/ruin/station/box/bar/gambler/lew
+	id = "bar_gambler_lew"
+	suffix = "Box/Bar/bar_gambler_lew.dmm"
+	name = "Box Greeble"
+
 /datum/map_template/ruin/station/box/bar/griller
 	id = "bar_griller"
 	suffix = "Box/Bar/bar_griller.dmm"
