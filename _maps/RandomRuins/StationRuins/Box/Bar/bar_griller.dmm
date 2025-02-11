@@ -1,62 +1,60 @@
 "a" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/maintenance/port/aft)
-"b" = (/obj/machinery/chem_dispenser/drinks/beer,/obj/structure/table/wood,/turf/open/floor/wood,/area/maintenance/bar)
-"c" = (/obj/machinery/light/small{dir = 4},/turf/open/floor/wood,/area/maintenance/bar)
-"d" = (/obj/effect/landmark/xeno_spawn,/turf/open/floor/wood,/area/maintenance/bar)
-"e" = (/obj/structure/chair/wood/normal,/turf/open/floor/wood,/area/maintenance/bar)
-"f" = (/obj/structure/table/wood,/turf/open/floor/wood,/area/maintenance/bar)
-"g" = (/turf/open/floor/wood,/area/maintenance/bar)
-"h" = (/turf/open/floor/wood/damturf/broken7,/area/maintenance/bar)
-"i" = (/obj/machinery/chem_dispenser/drinks,/obj/structure/table/wood,/turf/open/floor/wood,/area/maintenance/bar)
+"b" = (/obj/structure/chair/beanbag/red{dir = 8},/turf/open/floor/plasteel/dark,/area/maintenance/bar)
+"c" = (/obj/machinery/light/small{dir = 4},/turf/open/floor/plasteel/dark,/area/maintenance/bar)
+"d" = (/obj/effect/landmark/xeno_spawn,/turf/open/floor/plasteel/cafeteria,/area/maintenance/bar)
+"f" = (/obj/structure/table,/obj/effect/turf_decal/loading_area{dir = 4; icon_state = "steel_decals10"},/obj/effect/turf_decal/loading_area{icon_state = "steel_decals10"},/turf/open/floor/plasteel/showroomfloor,/area/maintenance/bar)
+"g" = (/obj/machinery/vending/gato,/turf/open/floor/plasteel/dark,/area/maintenance/bar)
+"h" = (/obj/structure/table/wood,/obj/item/trash/candy,/turf/open/floor/plasteel/dark,/area/maintenance/bar)
+"i" = (/obj/machinery/chem_dispenser/drinks,/obj/structure/table/wood,/turf/open/floor/plasteel/cafeteria,/area/maintenance/bar)
 "j" = (/obj/machinery/door/airlock/maintenance,/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/wood,/area/maintenance/port/aft)
-"k" = (/obj/machinery/deepfryer,/turf/open/floor/wood,/area/maintenance/bar)
-"l" = (/obj/structure/table/wood,/obj/item/reagent_containers/food/drinks/bigbottle/cola,/turf/open/floor/carpet/red,/area/maintenance/bar)
-"m" = (/obj/structure/mineral_door/wood,/obj/structure/barricade/wooden,/turf/open/floor/wood{icon_state = "wood-broken4"},/area/maintenance/bar)
+"k" = (/obj/structure/closet/secure_closet/freezer/kitchen/maintenance,/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "drain"; name = "drain"},/turf/open/floor/plasteel/showroomfloor,/area/maintenance/bar)
+"l" = (/obj/structure/table/wood,/obj/item/reagent_containers/food/drinks/bigbottle/cola,/turf/open/floor/plasteel/dark,/area/maintenance/bar)
+"m" = (/obj/machinery/door/airlock{name = "Maint kitchen room"; req_access_txt = null},/obj/structure/barricade/wooden,/turf/open/floor/plasteel/cafeteria,/area/maintenance/bar)
 "n" = (/obj/machinery/vending/boozeomat/all_access,/turf/closed/wall,/area/maintenance/bar)
-"o" = (/turf/open/floor/wood/damturf/broken2,/area/maintenance/bar)
-"p" = (/obj/structure/cable{icon_state = "1-8"},/turf/open/floor/wood,/area/maintenance/bar)
-"q" = (/obj/effect/spawner/lootdrop/keg,/turf/open/floor/wood,/area/maintenance/bar)
-"r" = (/obj/structure/table/wood,/obj/item/book/manual/blubbery_bartender,/turf/open/floor/carpet/red,/area/maintenance/bar)
-"s" = (/turf/open/floor/wood/damturf/broken6,/area/maintenance/bar)
-"t" = (/obj/machinery/vending/mealdor,/turf/open/floor/wood,/area/maintenance/bar)
+"p" = (/obj/structure/cable{icon_state = "1-8"},/turf/open/floor/plasteel/dark,/area/maintenance/bar)
+"q" = (/obj/effect/spawner/lootdrop/keg,/turf/open/floor/plasteel/cafeteria,/area/maintenance/bar)
+"r" = (/obj/structure/table,/obj/item/book/manual/blubbery_bartender,/obj/effect/turf_decal/loading_area{dir = 4; icon_state = "drain"; name = "drain"},/turf/open/floor/plasteel/cafeteria,/area/maintenance/bar)
+"s" = (/turf/open/floor/plasteel/cafeteria,/area/maintenance/bar)
+"t" = (/obj/machinery/deepfryer,/turf/open/floor/plasteel/showroomfloor,/area/maintenance/bar)
 "u" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/maintenance/port/aft)
-"w" = (/turf/open/floor/carpet/red,/area/maintenance/bar)
-"x" = (/obj/structure/table/wood,/obj/item/reagent_containers/rag,/obj/machinery/light/small{dir = 1},/turf/open/floor/carpet/red,/area/maintenance/bar)
-"y" = (/obj/structure/table/wood,/obj/item/trash/candle,/turf/open/floor/carpet/red,/area/maintenance/bar)
-"z" = (/obj/structure/reagent_dispensers/keg/gargle,/turf/open/floor/wood,/area/maintenance/bar)
-"A" = (/obj/structure/mineral_door/wood,/turf/open/floor/wood,/area/maintenance/bar)
-"B" = (/obj/machinery/vending/gato,/turf/open/floor/wood,/area/maintenance/bar)
-"C" = (/obj/machinery/light/small{dir = 8},/turf/open/floor/wood,/area/maintenance/bar)
-"D" = (/obj/machinery/power/apc{areastring = "/area/maintenance/bar"; dir = 1; name = "Maintenance Bar APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-4"},/turf/open/floor/wood,/area/maintenance/bar)
+"v" = (/obj/structure/table,/obj/effect/turf_decal/loading_area{dir = 4; icon_state = "drain"; name = "drain"},/turf/open/floor/plasteel/cafeteria,/area/maintenance/bar)
+"w" = (/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "drain"; name = "drain"},/turf/open/floor/plasteel/cafeteria,/area/maintenance/bar)
+"x" = (/obj/structure/table,/obj/item/reagent_containers/rag,/obj/machinery/light/small{dir = 1},/obj/effect/turf_decal/loading_area{dir = 4; icon_state = "drain"; name = "drain"},/turf/open/floor/plasteel/cafeteria,/area/maintenance/bar)
+"y" = (/obj/structure/table/wood,/obj/item/trash/candle,/turf/open/floor/plasteel/dark,/area/maintenance/bar)
+"z" = (/obj/machinery/chem_dispenser/drinks/beer,/obj/structure/table/wood,/turf/open/floor/plasteel/cafeteria,/area/maintenance/bar)
+"A" = (/obj/structure/mineral_door/wood,/turf/open/floor/plasteel/cafeteria,/area/maintenance/bar)
+"C" = (/obj/machinery/light/small{dir = 8},/turf/open/floor/plasteel/cafeteria,/area/maintenance/bar)
+"D" = (/obj/machinery/power/apc{areastring = "/area/maintenance/bar"; dir = 1; name = "Maintenance Bar APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-4"},/turf/open/floor/plasteel/dark,/area/maintenance/bar)
+"E" = (/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "drain"; name = "drain"},/turf/open/floor/plasteel/showroomfloor,/area/maintenance/bar)
 "F" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/closed/wall,/area/maintenance/port/aft)
-"G" = (/obj/structure/closet/secure_closet/freezer/kitchen/maintenance,/turf/open/floor/wood,/area/maintenance/bar)
-"I" = (/turf/open/floor/wood/damturf/broken1,/area/maintenance/bar)
-"J" = (/obj/structure/table/wood,/obj/item/trash/candy,/turf/open/floor/wood,/area/maintenance/bar)
-"K" = (/obj/structure/chair/wood/normal,/turf/open/floor/carpet/red,/area/maintenance/bar)
-"M" = (/obj/structure/table/wood,/obj/item/trash/raisins,/turf/open/floor/carpet/red,/area/maintenance/bar)
-"N" = (/obj/machinery/light/small{dir = 4},/obj/structure/table/wood,/turf/open/floor/wood,/area/maintenance/bar)
-"O" = (/obj/structure/chair/wood/normal{dir = 1},/turf/open/floor/carpet/red,/area/maintenance/bar)
-"P" = (/obj/structure/table/wood,/turf/open/floor/carpet/red,/area/maintenance/bar)
+"G" = (/obj/structure/table,/obj/effect/turf_decal/loading_area{dir = 1; icon_state = "drain"; name = "drain"},/obj/effect/turf_decal/loading_area{dir = 4; icon_state = "steel_decals10"},/obj/effect/turf_decal/loading_area{icon_state = "steel_decals10"},/turf/open/floor/plasteel/showroomfloor,/area/maintenance/bar)
+"H" = (/obj/structure/reagent_dispensers/keg/gargle,/turf/open/floor/plasteel/cafeteria,/area/maintenance/bar)
+"K" = (/obj/structure/chair/wood/normal,/turf/open/floor/plasteel/dark,/area/maintenance/bar)
+"L" = (/obj/machinery/vending/mealdor,/turf/open/floor/plasteel/dark,/area/maintenance/bar)
+"M" = (/obj/structure/table/wood,/obj/item/trash/raisins,/turf/open/floor/plasteel/dark,/area/maintenance/bar)
+"O" = (/obj/structure/chair/wood/normal{dir = 1},/turf/open/floor/plasteel/dark,/area/maintenance/bar)
+"P" = (/obj/structure/table/wood,/turf/open/floor/plasteel/dark,/area/maintenance/bar)
 "Q" = (/turf/closed/wall,/area/maintenance/port/aft)
 "R" = (/turf/template_noop,/area/template_noop)
-"S" = (/obj/structure/chair/wood/normal{dir = 1},/turf/open/floor/wood,/area/maintenance/bar)
-"T" = (/obj/structure/chair/beanbag/red{dir = 8},/turf/open/floor/wood,/area/maintenance/bar)
-"V" = (/obj/item/stack/sheet/mineral/coal,/obj/item/stack/sheet/mineral/coal,/obj/machinery/grill,/obj/item/reagent_containers/food/snacks/meat/slab,/obj/item/reagent_containers/food/snacks/meat/slab,/turf/open/floor/wood,/area/maintenance/bar)
+"S" = (/turf/open/floor/plasteel/showroomfloor,/area/maintenance/bar)
+"T" = (/turf/open/floor/plasteel/dark,/area/maintenance/bar)
+"V" = (/obj/item/stack/sheet/mineral/coal,/obj/item/stack/sheet/mineral/coal,/obj/machinery/grill,/obj/item/reagent_containers/food/snacks/meat/slab,/obj/item/reagent_containers/food/snacks/meat/slab,/turf/open/floor/plasteel/showroomfloor,/area/maintenance/bar)
 "W" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 5},/turf/closed/wall,/area/maintenance/port/aft)
 "X" = (/turf/closed/wall,/area/maintenance/bar)
-"Y" = (/turf/open/floor/wood/damturf/broken5,/area/maintenance/bar)
-"Z" = (/obj/structure/chair/stool/bar,/turf/open/floor/carpet/red,/area/maintenance/bar)
+"Y" = (/obj/machinery/light/small{dir = 4},/obj/structure/table/wood,/turf/open/floor/plasteel/dark,/area/maintenance/bar)
+"Z" = (/obj/structure/chair/stool/bar,/turf/open/floor/plasteel/dark,/area/maintenance/bar)
 
 (1,1,1) = {"
 RRQQQQQjQQF
-RRQgAgDptBF
-RRQgXgoIgcF
-QQngxZwwKKF
-QbigPZwwMlu
-QCdgPZwwPyu
-QqszrZwwOOu
-QXmXXgggggu
-QGggfTggeeF
-QkghfggYJNF
-QVggfTggSSF
+RRQwATDpLgF
+RRQsXTTTTcF
+QQnsxZTTKKF
+QzisvZTTMlu
+QCdsvZTTPyu
+QqsHrZTTOOu
+QXmXXTTTTTu
+QkEEGbTTKKF
+QtSSfTTThYF
+QVSSfbTTOOF
 QQQQQaaaaQW
 "}

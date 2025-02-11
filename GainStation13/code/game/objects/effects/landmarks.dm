@@ -20,12 +20,12 @@
 /datum/map_template/ruin/station/box/bar/gambler
 	id = "bar_gambler"
 	suffix = "Box/Bar/bar_gambler.dmm"
-	name = "Box Googley"
+	name = "Box Gambler"
 
 /datum/map_template/ruin/station/box/bar/gambler/lew
 	id = "bar_gambler_lew"
 	suffix = "Box/Bar/bar_gambler_lew.dmm"
-	name = "Box Greeble"
+	name = "Box Gambler Lew"
 
 /datum/map_template/ruin/station/box/bar/griller
 	id = "bar_griller"
@@ -36,6 +36,11 @@
 	id = "bar_botany"
 	suffix = "Box/Bar/bar_botany.dmm"
 	name = "Box Botany"
+
+/datum/map_template/ruin/station/box/bar/stripper
+	id = "bar_stripper"
+	suffix = "Box/Bar/bar_stripper.dmm"
+	name = "Box Stripper" //fucking comment!!!!
 
 /obj/effect/spawner/lootdrop/arcadeboards
 	name = "random arcade spawner"
