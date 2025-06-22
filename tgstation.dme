@@ -4017,7 +4017,7 @@
 #include "GainStation13\code\mechanics\water_sponge.dm"
 #include "GainStation13\code\mechanics\web_weaving.dm"
 #include "GainStation13\code\mechanics\den abductors\console.dm"
-#include "GainStation13\code\mechanics\den abductors\purchaseble_goodies.dm"
+#include "GainStation13\code\mechanics\den abductors\purchasable_goodies.dm"
 #include "GainStation13\code\mechanics\transformation\food.dm"
 #include "GainStation13\code\mechanics\transformation\mob_procs.dm"
 #include "GainStation13\code\mechanics\transformation\transformation_component.dm"
