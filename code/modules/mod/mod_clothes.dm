@@ -24,6 +24,9 @@
 	var/alternate_layer = NECK_LAYER
 	var/obj/item/mod/control/mod
 	mutantrace_variation = STYLE_MUZZLE
+	// GS13 EDIT, fix baldening from undeployed MOD helmets
+	dynamic_hair_suffix = ""
+	//GS13 END EDIT
 
 /obj/item/clothing/head/mod/Destroy()
 	if(!QDELETED(mod))
