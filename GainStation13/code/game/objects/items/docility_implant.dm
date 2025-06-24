@@ -35,6 +35,8 @@
 	for(var/trait in traits_list)
 		ADD_TRAIT(target, trait, src)
 
+	to_chat(target_human, "<span class='warning'><b>You suddenly feel a lot more docile and peaceful, your body turning lethargic and your mind hazy.</b></span>")
+
 	target_human.nutri_mult += 1
 	return TRUE
 
@@ -50,9 +52,10 @@
 	for(var/trait in traits_list)
 		REMOVE_TRAIT(target_human, trait, src)
 
+	to_chat(target_human, "<span class='warning'><b>Your mind sharpens and you feel more lively again, the soothing thoughts of peacefully lazing around going away.</b></span>")
+
 	target_human.nutri_mult -= 1
 	return TRUE
-
 
 /obj/item/implant/docile/livestock
 	name = "livestock implant"
@@ -67,6 +70,9 @@
 		TRAIT_NO_MISC,
 		TRAIT_NORUNNING,
 		TRAIT_MILKY,
+		TRAIT_VORACIOUS,
+		TRAIT_CHUNKYFINGERS,
+		TRAIT_HEAT,
 	)
 	/// What is the name of the mob before we change it?
 	var/stored_name = ""
@@ -78,18 +84,6 @@
 /obj/item/implant/docile/livestock/justfat //gs13 - for admin fuckery
 	name = "hacked livestock implant"
 	required_fatness = 0
-	traits_list = list(
-		TRAIT_WEIGHT_LOSS_IMMUNE,
-		TRAIT_PACIFISM,
-		TRAIT_CLUMSY,
-		TRAIT_FAT_GOOD,
-		TRAIT_HEAVY_SLEEPER,
-		TRAIT_DOCILE,
-		TRAIT_LIVESTOCK,
-		TRAIT_NO_MISC,
-		TRAIT_NORUNNING,
-		TRAIT_MILKY,
-	)
 
 
 /obj/item/implant/docile/livestock/can_be_implanted_in(mob/living/target)
@@ -111,6 +105,8 @@
 	target_human.real_name = new_name
 	target_human.name = new_name
 
+	to_chat(target, "<span class='warning'><b>As your mind slows down, you experience a strange desire to be good, obedient and fat cattle...</b></span>")
+
 	if(target_human?.getorganslot("testicles"))
 		var/obj/item/organ/genital/testicles/balls = target_human?.getorganslot("testicles")
 		balls.fluid_mult = balls.fluid_mult * productivity_mult
@@ -129,6 +125,9 @@
 	var/mob/living/carbon/human/target_human = source
 	target_human.real_name = stored_name
 	target_human.name = stored_name
+
+	to_chat(source, "<span class='warning'><b>Your mind sharpens and you feel more lively again, the soothing thoughts of peacefully lazing around going away.</b></span>")
+
 
 	if(target_human?.getorganslot("testicles"))
 		var/obj/item/organ/genital/testicles/balls = target_human?.getorganslot("testicles")
