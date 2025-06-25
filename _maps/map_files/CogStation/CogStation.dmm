@@ -72372,6 +72372,10 @@
 /obj/machinery/atmospherics/pipe/simple/supplymain/visible,
 /turf/open/space/basic,
 /area/space/nearstation)
+"sVU" = (
+/mob/living/simple_animal/cow/wisdom/wisest,
+/turf/open/floor/carpet/purple,
+/area/command/heads_quarters/rd)
 "sWo" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 4
@@ -95690,7 +95694,7 @@ bgX
 csF
 csN
 biA
-biA
+sVU
 csL
 cDj
 cDy
