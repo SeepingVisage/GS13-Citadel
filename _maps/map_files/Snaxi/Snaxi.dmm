@@ -5711,6 +5711,16 @@
 "cvV" = (
 /turf/closed/wall/r_wall,
 /area/medical/morgue)
+"cvW" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
+	dir = 4
+	},
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/open/floor/wood,
+/area/commons/dorms)
 "cwn" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/closed/wall,
@@ -6414,9 +6424,10 @@
 /turf/open/floor/plating,
 /area/command/bridge)
 "cOo" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/layer1{
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer1{
 	dir = 1;
-	name = "atmos waste"
+	name = "Atmos Waste";
+	volume_rate = 200
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/engineering/atmos)
@@ -8973,7 +8984,7 @@
 /turf/open/floor/plasteel,
 /area/security/warden)
 "dRP" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 1
 	},
 /turf/open/floor/plasteel/stairs/left{
@@ -33365,7 +33376,7 @@
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain)
 "orQ" = (
-/obj/structure/fluff/railing,
+/obj/structure/railing,
 /turf/open/floor/plasteel/stairs/right{
 	dir = 8
 	},
@@ -54104,10 +54115,6 @@
 /obj/machinery/camera{
 	c_tag = "Dorms Northwest";
 	dir = 4
-	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = -24
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -220371,7 +220378,7 @@ nsS
 cep
 ptH
 xAR
-lkj
+cvW
 cep
 sKn
 nfZ
