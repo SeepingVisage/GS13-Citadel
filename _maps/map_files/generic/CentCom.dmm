@@ -1748,6 +1748,14 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
+"buG" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/item/book/manual/gato_spacelaw,
+/turf/open/floor/plasteel,
+/area/centcom/supply)
 "buU" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
 /turf/open/floor/plasteel/cafeteria,
@@ -2609,6 +2617,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/item/book/manual/gato_spacelaw,
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
 "ccO" = (
@@ -4194,6 +4203,10 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/item/book/manual/gato_spacelaw{
+	pixel_x = -15;
+	pixel_y = 0
+	},
 /turf/open/floor/plasteel/dark,
 /area/tdome/tdomeadmin)
 "dnI" = (
@@ -4224,8 +4237,6 @@
 /obj/item/clothing/head/HoS/beret/gato,
 /obj/item/clothing/suit/armor/vest/capcarapace/gato,
 /obj/item/clothing/suit/armor/vest/capcarapace/cc,
-/obj/item/clothing/under/centcomdress,
-/obj/item/clothing/under/centcomdressvk,
 /turf/open/floor/plasteel/grimy,
 /area/centcom/ferry)
 "dog" = (
@@ -13857,6 +13868,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/item/book/manual/gato_spacelaw,
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
 "kxp" = (
@@ -16540,10 +16552,13 @@
 "myX" = (
 /obj/structure/table/reinforced,
 /obj/item/taperecorder,
-/obj/item/book/manual/wiki/security_space_law,
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
 	dir = 8
+	},
+/obj/item/book/manual/gato_spacelaw{
+	pixel_x = -16;
+	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/evac)
@@ -21825,7 +21840,6 @@
 "qlf" = (
 /obj/structure/table/wood,
 /obj/item/folder/red,
-/obj/item/book/manual/wiki/security_space_law,
 /obj/item/restraints/handcuffs,
 /obj/item/assembly/flash/handheld,
 /obj/machinery/airalarm{
@@ -21841,6 +21855,10 @@
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
+	},
+/obj/item/book/manual/gato_spacelaw{
+	pixel_x = 15;
+	pixel_y = 2
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/ferry)
@@ -23126,6 +23144,21 @@
 "rlj" = (
 /turf/open/floor/plasteel/white,
 /area/fatlab)
+"rly" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/item/book/manual/gato_spacelaw,
+/turf/open/floor/plasteel/dark,
+/area/centcom/ferry)
 "rmk" = (
 /obj/machinery/vending/autodrobe,
 /turf/open/indestructible/hotelwood,
@@ -24205,7 +24238,6 @@
 /area/tdome/tdomeobserve)
 "scm" = (
 /obj/structure/table/reinforced,
-/obj/item/book/manual/wiki/security_space_law,
 /obj/item/taperecorder,
 /obj/machinery/firealarm{
 	dir = 4;
@@ -24220,6 +24252,10 @@
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
+	},
+/obj/item/book/manual/gato_spacelaw{
+	pixel_x = 6;
+	pixel_y = -16
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
@@ -24617,8 +24653,6 @@
 /obj/item/clothing/suit/armor/vest/capcarapace/gato,
 /obj/item/clothing/suit/armor/vest/capcarapace/paradepurple,
 /obj/item/clothing/suit/armor/vest/capcarapace/paradeblack,
-/obj/item/clothing/under/centcomdress,
-/obj/item/clothing/under/centcomdressvk,
 /turf/open/floor/plasteel/dark/side{
 	dir = 9
 	},
@@ -25039,7 +25073,6 @@
 /turf/open/floor/plasteel,
 /area/centcom/supply)
 "sHh" = (
-/obj/item/book/manual/wiki/security_space_law,
 /obj/item/taperecorder,
 /obj/structure/table/wood,
 /obj/effect/turf_decal/tile/neutral{
@@ -25051,6 +25084,10 @@
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
+	},
+/obj/item/book/manual/gato_spacelaw{
+	pixel_x = 12;
+	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
@@ -26776,7 +26813,6 @@
 "tYz" = (
 /obj/structure/table/wood,
 /obj/item/folder/red,
-/obj/item/book/manual/wiki/security_space_law,
 /obj/item/restraints/handcuffs,
 /obj/item/assembly/flash/handheld,
 /obj/effect/turf_decal/tile/neutral{
@@ -29330,6 +29366,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/item/book/manual/gato_spacelaw,
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
 "vTe" = (
@@ -30626,6 +30663,7 @@
 /area/centcom/control)
 "wMd" = (
 /obj/structure/table/wood,
+/obj/item/book/manual/gato_spacelaw,
 /turf/open/floor/plasteel/grimy,
 /area/centcom/control)
 "wMh" = (
@@ -30956,6 +30994,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/item/book/manual/gato_spacelaw,
 /turf/open/floor/plasteel,
 /area/centcom/control)
 "xaH" = (
@@ -31448,7 +31487,6 @@
 "xwF" = (
 /obj/structure/table/wood,
 /obj/item/folder/red,
-/obj/item/book/manual/wiki/security_space_law,
 /obj/item/restraints/handcuffs,
 /obj/item/assembly/flash/handheld,
 /obj/effect/turf_decal/tile/neutral{
@@ -32364,7 +32402,6 @@
 /turf/open/floor/plating/abductor,
 /area/abductor_ship)
 "yao" = (
-/obj/item/book/manual/wiki/security_space_law,
 /obj/structure/table/wood,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -32376,6 +32413,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/item/book/manual/gato_spacelaw,
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
 "yaq" = (
@@ -76044,7 +76082,7 @@ hkT
 xLN
 lyK
 aJd
-jLL
+rly
 pVI
 nWv
 jAM
@@ -79628,7 +79666,7 @@ lfI
 qDa
 lUv
 frb
-sGK
+buG
 kwA
 iyc
 kwA

@@ -31,7 +31,7 @@
 	threat = 2
 
 	family_heirlooms = list(
-		/obj/item/book/manual/gato_spacelaw,
+		/obj/item/book/manual/gato_spacelaw, //gs13 - gato law book
 		/obj/item/clothing/head/beret/sec
 	)
 
