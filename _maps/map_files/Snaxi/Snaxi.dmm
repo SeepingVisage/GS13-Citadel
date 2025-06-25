@@ -6414,9 +6414,10 @@
 /turf/open/floor/plating,
 /area/command/bridge)
 "cOo" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/layer1{
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer1{
 	dir = 1;
-	name = "atmos waste"
+	name = "Atmos Waste";
+	volume_rate = 200
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/engineering/atmos)
@@ -32927,6 +32928,16 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
+"ogq" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
+	dir = 4
+	},
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/open/floor/wood,
+/area/commons/dorms)
 "ogr" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -54104,10 +54115,6 @@
 /obj/machinery/camera{
 	c_tag = "Dorms Northwest";
 	dir = 4
-	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = -24
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -220371,7 +220378,7 @@ nsS
 cep
 ptH
 xAR
-lkj
+ogq
 cep
 sKn
 nfZ
