@@ -795,6 +795,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
+/obj/machinery/meter,
 /turf/open/floor/engine,
 /area/engineering/atmospherics_engine{
 	name = "Supermatter Engine"
@@ -6142,6 +6143,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
+/obj/machinery/meter,
 /turf/open/floor/engine,
 /area/engineering/atmospherics_engine{
 	name = "Supermatter Engine"
@@ -8447,6 +8449,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/turf_decal/stripes/corner,
+/obj/machinery/meter,
 /turf/open/floor/engine,
 /area/engineering/atmospherics_engine{
 	name = "Supermatter Engine"
@@ -13238,6 +13241,13 @@
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/plasteel,
 /area/security/prison)
+"fJu" = (
+/obj/machinery/atmospherics/pipe/manifold4w/general/visible,
+/obj/machinery/meter,
+/turf/open/floor/plasteel/dark,
+/area/engineering/atmospherics_engine{
+	name = "Supermatter Engine"
+	})
 "fJA" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -17302,6 +17312,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
+/obj/machinery/meter,
 /turf/open/floor/engine,
 /area/engineering/atmospherics_engine{
 	name = "Supermatter Engine"
@@ -29802,6 +29813,7 @@
 	dir = 9
 	},
 /obj/effect/turf_decal/stripes/line,
+/obj/machinery/meter,
 /turf/open/floor/engine,
 /area/engineering/atmospherics_engine{
 	name = "Supermatter Engine"
@@ -36088,6 +36100,7 @@
 	pixel_x = 24;
 	req_access_txt = "10"
 	},
+/obj/machinery/meter,
 /turf/open/floor/engine,
 /area/engineering/atmospherics_engine{
 	name = "Supermatter Engine"
@@ -37647,7 +37660,7 @@
 /turf/open/floor/plasteel/dark,
 /area/command/teleporter)
 "qtB" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
 /turf/open/floor/engine,
 /area/engineering/supermatter)
 "qtW" = (
@@ -38501,6 +38514,7 @@
 "qMm" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/visible,
 /obj/effect/turf_decal/delivery,
+/obj/machinery/meter,
 /turf/open/floor/plasteel,
 /area/engineering/atmospherics_engine{
 	name = "Supermatter Engine"
@@ -40319,7 +40333,9 @@
 /turf/open/floor/plasteel,
 /area/cargo/storage)
 "rCp" = (
-/obj/machinery/atmospherics/components/binary/pump/on,
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 1
+	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
@@ -52635,7 +52651,7 @@
 /turf/open/floor/plasteel/white,
 /area/science/mixing)
 "wOZ" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 1
 	},
 /turf/open/floor/engine,
@@ -242501,7 +242517,7 @@ wHX
 fkG
 qSc
 ssz
-tGS
+fJu
 kFH
 vBn
 sJT
