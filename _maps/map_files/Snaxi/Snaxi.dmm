@@ -30406,6 +30406,19 @@
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/aft)
+"naO" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 8
+	},
+/mob/living/simple_animal/cow/wisdom/wisest,
+/turf/open/floor/plasteel/checker,
+/area/command/heads_quarters/rd)
 "nbl" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -198491,7 +198504,7 @@ qqs
 qPD
 fCi
 gYK
-aod
+naO
 arx
 dYV
 vgD
