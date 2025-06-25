@@ -4067,6 +4067,7 @@
 #include "GainStation13\code\modules\language\tajara.dm"
 #include "GainStation13\code\modules\loadout\backpack.dm"
 #include "GainStation13\code\modules\loadout\gloves.dm"
+#include "GainStation13\code\modules\mob\living\simple_animal\friendly\wisest_cow.dm"
 #include "GainStation13\code\game\objects\items\storage\fancy.dm"
 #include "GainStation13\code\modules\cargo\packs\engineering.dm"
 #include "GainStation13\code\modules\cargo\packs\materials.dm"
