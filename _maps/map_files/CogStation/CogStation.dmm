@@ -19426,9 +19426,9 @@
 /turf/open/floor/plasteel,
 /area/security/office)
 "aQx" = (
-/obj/machinery/door/airlock/engineering{
-	name = "Engineering EVA";
-	req_access_txt = "11"
+/obj/machinery/door/airlock/engineering/glass{
+	req_access_txt = "11";
+	name = "Engineering EVA"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
@@ -30181,11 +30181,6 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
 "bnO" = (
-/obj/machinery/door/airlock/engineering/glass{
-	name = "Thermo-Electric Generator";
-	req_one_access_txt = "10;24"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/effect/turf_decal/delivery,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 9
@@ -30360,11 +30355,6 @@
 /turf/open/floor/plasteel,
 /area/science/server/compcore)
 "bog" = (
-/obj/machinery/door/airlock/engineering/glass{
-	name = "Thermo-Electric Generator";
-	req_one_access_txt = "10;24"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/effect/turf_decal/delivery,
 /obj/machinery/atmospherics/pipe/simple/cyan/visible{
 	dir = 5
@@ -35363,10 +35353,6 @@
 /obj/machinery/atmospherics/pipe/simple/orange/hidden,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit/departure_lounge)
-"bzr" = (
-/obj/machinery/meter,
-/turf/closed/wall,
-/area/hallway/primary/aft)
 "bzs" = (
 /obj/machinery/disposal/bin,
 /obj/effect/turf_decal/delivery,
@@ -36248,10 +36234,7 @@
 "bBn" = (
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Thermo-Electric Generator Room";
-	req_access_txt = "10"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
+	req_access_txt = "11"
 	},
 /obj/machinery/door/firedoor/heavy,
 /obj/effect/turf_decal/delivery,
@@ -37905,9 +37888,9 @@
 /turf/open/floor/carpet/green,
 /area/service/bar)
 "bES" = (
-/obj/machinery/door/airlock/engineering{
-	name = "Hot Loop";
-	req_one_access_txt = "10;24"
+/obj/machinery/door/airlock/engineering/glass{
+	req_access_txt = "11";
+	name = "Hot Loop"
 	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable{
@@ -42468,8 +42451,8 @@
 	},
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Power Monitoring";
-	req_access_txt = "10";
-	dir = 4
+	dir = 4;
+	req_one_access_txt = "10;24"
 	},
 /turf/open/floor/plasteel,
 /area/engineering/engine_smes)
@@ -43502,9 +43485,9 @@
 /area/hallway/primary/central)
 "bQJ" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/engineering{
+/obj/machinery/door/airlock/engineering/glass{
 	name = "Engineering Workshop";
-	req_access_txt = "11"
+	req_one_access_txt = "10;24"
 	},
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/stripes/line{
@@ -45478,10 +45461,10 @@
 /obj/machinery/atmospherics/pipe/simple/orange/hidden{
 	dir = 8
 	},
-/obj/machinery/door/airlock/engineering{
-	name = "Primary Tool Storage";
-	req_access_txt = "11";
-	dir = 4
+/obj/machinery/door/airlock/engineering/glass{
+	dir = 8;
+	req_one_access_txt = "10;24";
+	name = "Primary Tool Storage"
 	},
 /turf/open/floor/plasteel,
 /area/commons/storage/primary)
@@ -48307,7 +48290,8 @@
 /area/engineering/atmos)
 "cao" = (
 /obj/machinery/power/compressor{
-	dir = 4
+	dir = 4;
+	comp_id = "incineratorturbine"
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -48920,7 +48904,7 @@
 /obj/machinery/door/airlock/external{
 	dir = 4;
 	name = "Atmospherics External Airlock";
-	req_access_txt = "24"
+	req_access_txt = "13;24"
 	},
 /turf/open/floor/plasteel,
 /area/engineering/atmos)
@@ -50810,7 +50794,8 @@
 	},
 /obj/machinery/door/airlock/external/glass{
 	name = "Mixing Chamber Access";
-	req_one_access_txt = "10;24"
+	req_one_access_txt = "10;24";
+	dir = 4
 	},
 /obj/machinery/door/firedoor/heavy,
 /turf/open/floor/plating,
@@ -50848,9 +50833,10 @@
 /turf/closed/wall/r_wall,
 /area/engineering/secure_construction)
 "cfw" = (
-/obj/machinery/door/airlock/engineering{
+/obj/machinery/door/airlock/engineering/glass{
 	name = "Canister Storage";
-	req_one_access_txt = "10;24"
+	req_access_txt = "11";
+	dir = 4
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -51076,10 +51062,10 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/external{
-	dir = 4;
+/obj/machinery/door/airlock/external/glass{
+	req_access_txt = "24";
 	name = "Atmospherics External Airlock";
-	req_access_txt = "24"
+	dir = 4
 	},
 /turf/open/floor/plasteel,
 /area/engineering/atmos)
@@ -53764,9 +53750,10 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/machinery/door/airlock/atmos{
+/obj/machinery/door/airlock/atmos/glass{
 	name = "Atmospherics Access";
-	req_access_txt = "24"
+	req_access_txt = "24";
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/orange/hidden{
 	dir = 8
@@ -54119,7 +54106,8 @@
 "cmp" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Gravity Generator";
-	req_access_txt = "11"
+	req_access_txt = "11";
+	dir = 4
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
@@ -54477,9 +54465,10 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit/departure_lounge)
 "cmY" = (
-/obj/machinery/door/airlock/engineering{
+/obj/machinery/door/airlock/engineering/glass{
+	req_access_txt = "11";
 	name = "Hot Loop";
-	req_one_access_txt = "10;24"
+	dir = 4
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -54550,9 +54539,10 @@
 /turf/open/floor/plasteel,
 /area/cargo/qm)
 "cnh" = (
-/obj/machinery/door/airlock/engineering{
+/obj/machinery/door/airlock/engineering/glass{
+	req_access_txt = "11";
 	name = "Cold Loop";
-	req_access_txt = "10"
+	dir = 4
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -56204,7 +56194,7 @@
 	},
 /obj/machinery/door/airlock/engineering{
 	name = "Warehouse";
-	req_one_access_txt = "10;24";
+	req_one_access_txt = "11;24";
 	dir = 4
 	},
 /turf/open/floor/plasteel,
@@ -57342,10 +57332,10 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden{
 	dir = 4
 	},
-/obj/machinery/door/airlock/engineering{
+/obj/machinery/door/airlock/engineering/glass{
 	name = "Cold Loop";
-	req_access_txt = "10";
-	dir = 8
+	dir = 4;
+	req_one_access_txt = "11;24"
 	},
 /turf/open/floor/plasteel,
 /area/engineering/teg/coldloop)
@@ -66137,9 +66127,10 @@
 /turf/open/floor/plasteel,
 /area/engineering/workshop)
 "cIs" = (
-/obj/machinery/door/airlock/atmos{
+/obj/machinery/door/airlock/atmos/glass{
+	req_access_txt = "24";
 	name = "Atmospherics";
-	req_access_txt = "24"
+	dir = 4
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -66656,7 +66647,7 @@
 /obj/machinery/door/airlock/external{
 	dir = 4;
 	name = "Atmospherics External Airlock";
-	req_access_txt = "24"
+	req_access_txt = "13;24"
 	},
 /turf/open/floor/plasteel,
 /area/engineering/atmos)
@@ -66796,8 +66787,9 @@
 /turf/open/floor/plasteel/dark,
 /area/science/observatory)
 "cJC" = (
-/obj/machinery/door/airlock/engineering{
+/obj/machinery/door/airlock/engineering/glass{
 	name = "Gravity Generator";
+	dir = 4;
 	req_access_txt = "11"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -67204,7 +67196,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Canister Storage";
-	req_access_txt = "10"
+	req_one_access_txt = "11;24"
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -68043,6 +68035,10 @@
 	pixel_x = -24;
 	pixel_y = -9
 	},
+/obj/machinery/computer/turbine_computer{
+	dir = 4;
+	id = "incineratorturbine"
+	},
 /turf/open/floor/plasteel,
 /area/engineering/atmos)
 "cMw" = (
@@ -68508,9 +68504,9 @@
 /area/engineering/workshop)
 "cNu" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/engineering{
+/obj/machinery/door/airlock/engineering/glass{
 	name = "Engineering Workshop";
-	req_access_txt = "11"
+	req_one_access_txt = "10;24"
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -69484,8 +69480,8 @@
 /area/cargo/sorting)
 "cPI" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/engineering{
-	name = "Engineering Foyer";
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Engineering Access";
 	req_one_access_txt = "10;24"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
@@ -69494,8 +69490,8 @@
 /area/engineering/break_room)
 "cPJ" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/engineering{
-	name = "Engineering Foyer";
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Engineering Access";
 	req_one_access_txt = "10;24"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
@@ -110350,7 +110346,7 @@ bhT
 cMG
 cVq
 fui
-bzr
+bbh
 bcT
 bcT
 bcT
@@ -111378,7 +111374,7 @@ bhT
 cIW
 cIZ
 cym
-bzr
+bbh
 bcT
 bcT
 bcT
