@@ -206,7 +206,7 @@
 	desc = "Basic railing meant to protect idiots like you from falling."
 	icon = 'icons/obj/fluff.dmi'
 	icon_state = "railing"
-	density = TRUE
+	density = FALSE
 	anchored = TRUE
 	deconstructible = FALSE
 

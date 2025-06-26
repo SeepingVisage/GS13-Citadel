@@ -1611,7 +1611,7 @@
 /turf/open/floor/plasteel/stairs/right,
 /area/security/brig)
 "adX" = (
-/obj/structure/fluff/railing,
+/obj/structure/railing,
 /turf/open/floor/plasteel/dark,
 /area/science/observatory)
 "adZ" = (
@@ -1756,7 +1756,7 @@
 /area/science/observatory)
 "aeq" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
@@ -1823,7 +1823,7 @@
 /turf/open/floor/plasteel,
 /area/science/observatory)
 "aeA" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
@@ -2390,7 +2390,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
@@ -2748,7 +2748,7 @@
 /turf/open/floor/plating,
 /area/maintenance/fore)
 "agK" = (
-/obj/structure/fluff/railing{
+/obj/structure/railing{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
@@ -60383,12 +60383,6 @@
 /obj/machinery/atmospherics/pipe/simple/orange/hidden,
 /turf/open/floor/plating,
 /area/hallway/primary/aft)
-"cyp" = (
-/obj/structure/fluff/railing/corner{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/science/observatory)
 "cyq" = (
 /obj/machinery/light_switch{
 	pixel_y = 24
@@ -70476,10 +70470,6 @@
 	},
 /turf/open/floor/plating,
 /area/router)
-"dxB" = (
-/obj/structure/fluff/railing/corner,
-/turf/open/floor/plasteel/dark,
-/area/science/observatory)
 "dDX" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -71271,12 +71261,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/service/library)
-"kcj" = (
-/obj/structure/fluff/railing/corner{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/science/observatory)
 "kcS" = (
 /obj/structure/closet/secure_closet/miner,
 /obj/item/clothing/under/rank/cargo/miner,
@@ -72264,12 +72248,6 @@
 	},
 /turf/open/floor/wood,
 /area/service/library)
-"sNY" = (
-/obj/structure/fluff/railing/corner{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/science/observatory)
 "sOk" = (
 /obj/effect/turf_decal/tile/purple,
 /obj/item/kirbyplants/photosynthetic,
@@ -104055,11 +104033,11 @@ aaa
 aaU
 cze
 usq
-dxB
+cJv
 aeq
 afj
 afN
-kcj
+cJv
 bZX
 cze
 aaU
@@ -105083,11 +105061,11 @@ aaa
 aaU
 cze
 usq
-cyp
+cJv
 aeA
 yhv
 aeA
-sNY
+cJv
 bZX
 cze
 aaa
