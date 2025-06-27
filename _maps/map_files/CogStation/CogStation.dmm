@@ -56029,12 +56029,6 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden,
-/mob/living/simple_animal/hostile/retaliate/goose{
-	check_friendly_fire = 1;
-	desc = "It may not be as wise as an owl, but the Head of Security's pet is far more dangerous.";
-	faction = list("neutral","silicon","turret","station");
-	name = "Officer Snooty"
-	},
 /turf/open/floor/plasteel,
 /area/security/office)
 "cqe" = (
@@ -62911,6 +62905,28 @@
 "cCX" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
+	},
+/mob/living/simple_animal/hostile/retaliate/bat{
+	desc = "A failed experiment of GATO to create weaponised carp technology. This less than intimidating carp now serves as an authority figure's pet.";
+	emote_taunt = list("gnashes");
+	faction = list("carp");
+	harm_intent_damage = 3;
+	health = 200;
+	icon_dead = "magicarp_dead";
+	icon_gib = "magicarp_gib";
+	icon_living = "magicarp";
+	icon_state = "magicarp";
+	maxHealth = 200;
+	max_co2 = 5;
+	max_tox = 2;
+	melee_damage_lower = 15;
+	melee_damage_upper = 20;
+	min_oxy = 5;
+	name = "Lia";
+	real_name = "Lia";
+	response_help_continuous = "pets";
+	response_help_simple = "pet";
+	turns_per_move = 10
 	},
 /turf/open/floor/plasteel/grimy,
 /area/command/heads_quarters/hos)
@@ -71075,6 +71091,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/engineering/atmos)
+"jdx" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/tcommsat/server)
 "jdU" = (
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/brown{
@@ -71191,12 +71213,6 @@
 	},
 /turf/open/floor/catwalk_floor,
 /area/maintenance/aft)
-"jIZ" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel/dark/telecomms,
-/area/tcommsat/server)
 "jNL" = (
 /obj/structure/chair/office/dark,
 /turf/open/floor/wood,
@@ -71332,6 +71348,12 @@
 /obj/structure/bookcase/random/nonfiction,
 /turf/open/floor/wood,
 /area/service/library)
+"kHI" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/tcommsat/server)
 "kIq" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -71375,12 +71397,6 @@
 /obj/machinery/atmospherics/pipe/simple/violet/visible,
 /turf/open/floor/plasteel,
 /area/engineering/atmos)
-"kPj" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-8"
-	},
-/turf/open/floor/plasteel/dark/telecomms,
-/area/tcommsat/server)
 "kQy" = (
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/brown{
@@ -72593,18 +72609,6 @@
 /obj/machinery/disposal/bin,
 /turf/open/floor/plasteel,
 /area/cargo/sorting)
-"vvl" = (
-/obj/machinery/power/apc/highcap/fifteen_k{
-	areastring = "/area/tcommsat/server";
-	dir = 1;
-	name = "Telecomms Server APC";
-	pixel_y = 23
-	},
-/obj/structure/cable/yellow{
-	icon_state = "0-4"
-	},
-/turf/open/floor/plasteel/dark/telecomms,
-/area/tcommsat/server)
 "vxU" = (
 /obj/machinery/atmospherics/pipe/simple/yellow/visible,
 /obj/structure/extinguisher_cabinet{
@@ -72791,6 +72795,18 @@
 	},
 /turf/open/floor/mineral/basaltstone_floor,
 /area/service/bar)
+"wDz" = (
+/obj/machinery/power/apc/highcap/fifteen_k{
+	areastring = "/area/tcommsat/server";
+	dir = 1;
+	name = "Telecomms Server APC";
+	pixel_y = 23
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/tcommsat/server)
 "wPS" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/violet/visible{
@@ -84325,7 +84341,7 @@ bxQ
 bxZ
 byb
 byi
-vvl
+wDz
 byp
 byB
 byG
@@ -84582,7 +84598,7 @@ bxW
 bya
 byb
 byk
-jIZ
+jdx
 byq
 byn
 byH
@@ -84839,7 +84855,7 @@ bxJ
 byb
 byb
 byb
-jIZ
+jdx
 byx
 byn
 byn
@@ -85096,7 +85112,7 @@ bxv
 byf
 byj
 byl
-kPj
+kHI
 byn
 byn
 byI
