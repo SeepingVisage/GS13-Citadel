@@ -61888,7 +61888,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/yellow,
-/obj/machinery/rnd/production/techfab/department/engineering,
+/obj/machinery/rnd/production/protolathe/department/engineering,
 /obj/machinery/light{
 	dir = 4;
 	light_color = "#c1caff"
@@ -68416,9 +68416,6 @@
 /obj/machinery/atmospherics/pipe/simple/orange/hidden,
 /turf/open/floor/plasteel,
 /area/engineering/workshop)
-"cNw" = (
-/turf/closed/wall/r_wall,
-/area/router/air)
 "cNx" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -101819,7 +101816,7 @@ cvl
 cvl
 cKe
 cNh
-cNw
+cuR
 cIF
 ccp
 bqo
