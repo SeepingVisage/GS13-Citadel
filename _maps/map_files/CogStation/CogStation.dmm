@@ -2956,6 +2956,12 @@
 /area/security/warden)
 "ahh" = (
 /obj/machinery/power/port_gen/pacman,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plating,
 /area/tcommsat/computer)
 "ahi" = (
@@ -3821,6 +3827,9 @@
 /area/hallway/secondary/entry)
 "ajn" = (
 /obj/machinery/power/smes,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
 /turf/open/floor/plating,
 /area/tcommsat/computer)
 "ajo" = (
@@ -4146,15 +4155,17 @@
 /area/maintenance/port/fore)
 "ajZ" = (
 /obj/item/multitool,
-/obj/structure/cable{
-	icon_state = "0-2";
-	pixel_y = 1
-	},
 /obj/machinery/power/apc/highcap/ten_k{
 	areastring = "/area/tcommsat/computer";
 	dir = 1;
 	name = "Telecomms Access APC";
 	pixel_y = 23
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
 	},
 /turf/open/floor/plating,
 /area/tcommsat/computer)
@@ -4475,10 +4486,10 @@
 	name = "Telecommunications Maintenance";
 	req_access_txt = "61"
 	},
-/obj/structure/cable{
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden,
+/obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/cyan/hidden,
 /turf/open/floor/plating,
 /area/tcommsat/computer)
 "akK" = (
@@ -5589,13 +5600,10 @@
 /turf/open/floor/plasteel,
 /area/security/prison)
 "anx" = (
-/obj/structure/cable{
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on,
 /turf/open/floor/plating,
 /area/tcommsat/computer)
 "any" = (
@@ -11719,12 +11727,12 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden,
 /obj/machinery/atmospherics/pipe/simple/orange/hidden{
 	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
@@ -11748,6 +11756,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/orange/hidden{
 	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
@@ -12455,9 +12466,6 @@
 /area/service/bar)
 "aCf" = (
 /obj/machinery/light/small,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /turf/open/floor/plating,
 /area/tcommsat/computer)
 "aCg" = (
@@ -14994,12 +15002,12 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/machinery/airalarm{
 	dir = 1;
 	pixel_y = -22
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
 	},
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
@@ -17222,7 +17230,7 @@
 	dir = 1
 	},
 /obj/structure/cable{
-	icon_state = "0-8"
+	icon_state = "0-2"
 	},
 /turf/open/floor/plating,
 /area/tcommsat/computer)
@@ -17628,10 +17636,10 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/port/fore)
 "aMx" = (
-/obj/structure/cable{
+/obj/machinery/atmospherics/pipe/manifold4w/cyan/hidden,
+/obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/manifold4w/cyan/hidden,
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "aMy" = (
@@ -18139,25 +18147,19 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
 /obj/machinery/camera/motion{
 	c_tag = "Telecomms Control Room";
 	network = list("tcomms");
 	pixel_x = 22
 	},
-/obj/machinery/power/apc/highcap/fifteen_k{
-	areastring = "/area/tcommsat/server";
-	dir = 1;
-	name = "Telecomms Server APC";
-	pixel_y = 23
-	},
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden{
 	dir = 4
 	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
 /turf/open/floor/plasteel,
-/area/tcommsat/server)
+/area/tcommsat/computer)
 "aND" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall/r_wall,
@@ -19927,6 +19929,9 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "aRD" = (
@@ -20596,6 +20601,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/tcommsat/computer)
 "aTi" = (
@@ -22743,9 +22749,6 @@
 /turf/open/floor/plating,
 /area/maintenance/department/eva)
 "aYa" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/machinery/light/small,
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
@@ -34530,6 +34533,9 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "bxw" = (
@@ -34540,10 +34546,10 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
-/obj/structure/cable{
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden,
+/obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/cyan/hidden,
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "bxy" = (
@@ -34608,10 +34614,10 @@
 	name = "Telecommunications Chamber";
 	req_access_txt = "61"
 	},
-/obj/structure/cable{
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden,
+/obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/cyan/hidden,
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "bxE" = (
@@ -34649,11 +34655,11 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden{
 	dir = 5
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
 	},
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
@@ -34874,6 +34880,9 @@
 	req_access_txt = "61"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel,
 /area/tcommsat/server)
 "byg" = (
@@ -34899,6 +34908,9 @@
 /turf/closed/wall/r_wall,
 /area/tcommsat/server)
 "byj" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel,
 /area/tcommsat/server)
 "byk" = (
@@ -34912,6 +34924,9 @@
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
 /area/tcommsat/server)
@@ -54564,18 +54579,12 @@
 /turf/open/floor/plating,
 /area/command/gateway)
 "cnn" = (
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/effect/landmark/event_spawn,
 /obj/machinery/atmospherics/pipe/manifold/cyan/hidden{
 	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
@@ -68416,6 +68425,12 @@
 /obj/machinery/atmospherics/pipe/simple/orange/hidden,
 /turf/open/floor/plasteel,
 /area/engineering/workshop)
+"cNw" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/closed/wall/r_wall,
+/area/tcommsat/computer)
 "cNx" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -71176,6 +71191,12 @@
 	},
 /turf/open/floor/catwalk_floor,
 /area/maintenance/aft)
+"jIZ" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/tcommsat/server)
 "jNL" = (
 /obj/structure/chair/office/dark,
 /turf/open/floor/wood,
@@ -71354,6 +71375,12 @@
 /obj/machinery/atmospherics/pipe/simple/violet/visible,
 /turf/open/floor/plasteel,
 /area/engineering/atmos)
+"kPj" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/tcommsat/server)
 "kQy" = (
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/brown{
@@ -72566,6 +72593,18 @@
 /obj/machinery/disposal/bin,
 /turf/open/floor/plasteel,
 /area/cargo/sorting)
+"vvl" = (
+/obj/machinery/power/apc/highcap/fifteen_k{
+	areastring = "/area/tcommsat/server";
+	dir = 1;
+	name = "Telecomms Server APC";
+	pixel_y = 23
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/tcommsat/server)
 "vxU" = (
 /obj/machinery/atmospherics/pipe/simple/yellow/visible,
 /obj/structure/extinguisher_cabinet{
@@ -84286,7 +84325,7 @@ bxQ
 bxZ
 byb
 byi
-byn
+vvl
 byp
 byB
 byG
@@ -84543,7 +84582,7 @@ bxW
 bya
 byb
 byk
-byn
+jIZ
 byq
 byn
 byH
@@ -84800,7 +84839,7 @@ bxJ
 byb
 byb
 byb
-byn
+jIZ
 byx
 byn
 byn
@@ -85057,7 +85096,7 @@ bxv
 byf
 byj
 byl
-byn
+kPj
 byn
 byn
 byI
@@ -85303,7 +85342,7 @@ aaU
 akI
 ajn
 aLH
-akI
+cNw
 aAK
 aRC
 aHj
