@@ -3826,7 +3826,7 @@
 	},
 /area/hallway/secondary/entry)
 "ajn" = (
-/obj/machinery/power/smes,
+/obj/machinery/power/smes/engineering,
 /obj/structure/cable/yellow{
 	icon_state = "0-8"
 	},
@@ -71091,12 +71091,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/engineering/atmos)
-"jdx" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel/dark/telecomms,
-/area/tcommsat/server)
 "jdU" = (
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/brown{
@@ -71292,6 +71286,12 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/cargo/miningoffice)
+"khP" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/tcommsat/server)
 "kks" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -71348,12 +71348,6 @@
 /obj/structure/bookcase/random/nonfiction,
 /turf/open/floor/wood,
 /area/service/library)
-"kHI" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-8"
-	},
-/turf/open/floor/plasteel/dark/telecomms,
-/area/tcommsat/server)
 "kIq" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -71669,6 +71663,18 @@
 /obj/effect/landmark/start/prisoner,
 /turf/open/floor/plasteel,
 /area/security/prison)
+"naN" = (
+/obj/machinery/power/apc/highcap/fifteen_k{
+	areastring = "/area/tcommsat/server";
+	dir = 1;
+	name = "Telecomms Server APC";
+	pixel_y = 23
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/tcommsat/server)
 "nlZ" = (
 /obj/structure/chair/sofa/old{
 	dir = 8
@@ -72049,6 +72055,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/engineering/engine_smes)
+"rkW" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/dark/telecomms,
+/area/tcommsat/server)
 "rrS" = (
 /obj/structure/sign/mining,
 /obj/machinery/mineral/ore_redemption{
@@ -72795,18 +72807,6 @@
 	},
 /turf/open/floor/mineral/basaltstone_floor,
 /area/service/bar)
-"wDz" = (
-/obj/machinery/power/apc/highcap/fifteen_k{
-	areastring = "/area/tcommsat/server";
-	dir = 1;
-	name = "Telecomms Server APC";
-	pixel_y = 23
-	},
-/obj/structure/cable/yellow{
-	icon_state = "0-4"
-	},
-/turf/open/floor/plasteel/dark/telecomms,
-/area/tcommsat/server)
 "wPS" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/violet/visible{
@@ -84341,7 +84341,7 @@ bxQ
 bxZ
 byb
 byi
-wDz
+naN
 byp
 byB
 byG
@@ -84598,7 +84598,7 @@ bxW
 bya
 byb
 byk
-jdx
+khP
 byq
 byn
 byH
@@ -84855,7 +84855,7 @@ bxJ
 byb
 byb
 byb
-jdx
+khP
 byx
 byn
 byn
@@ -85112,7 +85112,7 @@ bxv
 byf
 byj
 byl
-kHI
+rkW
 byn
 byn
 byI
