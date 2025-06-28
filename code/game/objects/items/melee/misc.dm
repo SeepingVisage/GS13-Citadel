@@ -405,6 +405,8 @@
 	off_icon_state = "telebaton_0"
 	on_item_state = "telebaton_1"
 	force_on = 10
+	cooldown = 40 //gs13 change - telebaton nerf
+	stam_dmg = 10 //gs13 change - telebaton nerf
 	force_off = 0
 	weight_class_on = WEIGHT_CLASS_BULKY
 	total_mass = TOTAL_MASS_NORMAL_ITEM
