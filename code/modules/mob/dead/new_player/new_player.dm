@@ -504,7 +504,6 @@
 		humanc = character	//Let's retypecast the var to be human,
 
 	if(humanc)	//These procs all expect humans
-		GLOB.data_core.manifest_inject(humanc, humanc.client, humanc.client.prefs)
 		if(SSshuttle.arrivals)
 			SSshuttle.arrivals.QueueAnnounce(humanc, rank)
 		else
@@ -539,6 +538,9 @@
 
 	if(humanc && CONFIG_GET(flag/roundstart_traits))
 		SSquirks.AssignQuirks(humanc, humanc.client, TRUE, FALSE, job, FALSE)
+
+	if(humanc) //GS13 - Inject to manifest only after quirks have been applied
+		GLOB.data_core.manifest_inject(humanc, humanc.client, humanc.client.prefs)
 
 	log_manifest(character.mind.key,character.mind,character,latejoin = TRUE)
 
