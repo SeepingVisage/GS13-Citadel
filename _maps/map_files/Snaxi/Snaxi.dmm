@@ -19186,7 +19186,8 @@
 /obj/item/stack/sheet/metal/fifty,
 /obj/item/stack/sheet/metal/fifty,
 /obj/machinery/power/apc/highcap/ten_k{
-	pixel_y = -24
+	pixel_y = -24;
+	auto_name = 1
 	},
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/yellow{
@@ -30369,7 +30370,8 @@
 	},
 /obj/machinery/power/apc/highcap/fifteen_k{
 	pixel_x = -24;
-	dir = 8
+	dir = 8;
+	auto_name = 1
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -44905,7 +44907,7 @@
 "tsp" = (
 /obj/machinery/power/apc{
 	dir = 1;
-	name = "Engineering Foyer APC";
+	name = "Engineering Break Room APC";
 	pixel_y = 24
 	},
 /obj/structure/cable{
