@@ -244,8 +244,9 @@
 	color = "#9900FF"
 	armor = list(MELEE = 0, BULLET = 0, LASER = 0,ENERGY = 0, BOMB = 10, BIO = 0, RAD = 0, FIRE = 0, ACID = 0, WOUND = 5)
 
-/obj/item/clothing/under/color/grey/security
-	name = "security grey jumpsuit (Modular)"
+/obj/item/clothing/under/rank/security/officer
+	name = "security jumpsuit (Modular)"
+	modular_icon_location = 'GainStation13/icons/mob/modclothes/modular_secofficer.dmi'
 	desc = "Grey only in name"
 	color = "#F4080C"
 	armor = list(MELEE = 10, BULLET = 0, LASER = 0,ENERGY = 0, BOMB = 0, BIO = 0, RAD = 0, FIRE = 30, ACID = 30, WOUND = 10)
