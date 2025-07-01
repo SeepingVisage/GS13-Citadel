@@ -18122,14 +18122,14 @@
 /area/ai_monitored/turret_protected/ai)
 "aNA" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/maintenance{
-	name = "Security Maintenance";
-	req_access_txt = "2"
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/orange/hidden,
+/obj/machinery/door/airlock/maintenance{
+	name = "Security Maintenance";
+	req_one_access_txt = "1;4"
+	},
 /turf/open/floor/plating,
 /area/security/office)
 "aNB" = (
@@ -22881,7 +22881,7 @@
 	},
 /obj/machinery/door/airlock/maintenance{
 	name = "Security Maintenance";
-	req_access_txt = "12";
+	req_one_access_txt = "1;4";
 	dir = 4
 	},
 /turf/open/floor/catwalk_floor,

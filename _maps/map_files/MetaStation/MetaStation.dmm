@@ -63013,6 +63013,17 @@
 	},
 /turf/open/floor/plasteel,
 /area/engineering/main)
+"lmV" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
+	dir = 8
+	},
+/obj/structure/transit_tube/crossing/horizontal,
+/turf/open/space,
+/area/space/nearstation)
 "lnm" = (
 /obj/structure/chair/office/dark{
 	dir = 1
@@ -133079,7 +133090,7 @@ aaa
 aaa
 aaf
 aaf
-bpy
+lmV
 aaf
 aaf
 aaf
@@ -134878,7 +134889,7 @@ aaa
 aaa
 aaf
 aaf
-bpy
+lmV
 aaf
 aaf
 aaa
@@ -136677,7 +136688,7 @@ aaa
 aaa
 aaf
 aaf
-bpy
+lmV
 aaf
 aaf
 aaa

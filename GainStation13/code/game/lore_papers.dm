@@ -149,6 +149,12 @@
 				</html>
 				"}
 
+//snaxi bathhouse instructions
+/obj/item/paper/fluff/snaxi_bathhouse
+	name = "BATH HOUSE INSTRUCTIONS"
+	info = "Hey there! So, a few things to keep in mind: If you want to pump steam to the main area, you can do so by hooking up a tank with a wrench to the connector port. Afterwards, heat up the steam with the heater next to it. Once it's heated (please don't raise it to a boiling temperature), you can turn on the valve pump labelled 'gas to bathhouse' to get it pumping inside the main room. Voila! P.S.: A tank of steam will usually be enough for the main hall. Don't overpressurize or heat the room too much (something like 573K is typically nice and toasty)."
+
+
 
 //fastfood
 /obj/item/paper/fluff/ruins/fastfood/general_info
