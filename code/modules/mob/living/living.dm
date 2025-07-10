@@ -1164,7 +1164,9 @@
 
 	var/blocked = getarmor(null, RAD)
 
-	if(amount > RAD_BURN_THRESHOLD)
+	// GS13 EDIT allows us to bypass burn damage from rads
+	// if(amount > RAD_BURN_THRESHOLD)
+	if(amount > RAD_BURN_THRESHOLD && !HAS_TRAIT(src, TRAIT_RADRESONANCE)) // GS13 END EDIT
 		apply_damage((amount-RAD_BURN_THRESHOLD)/RAD_BURN_THRESHOLD, BURN, null, blocked)
 
 	apply_effect((amount*RAD_MOB_COEFFICIENT)/max(1, (radiation**2)*RAD_OVERDOSE_REDUCTION), EFFECT_IRRADIATE, blocked)
