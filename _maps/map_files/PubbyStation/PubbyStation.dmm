@@ -33906,6 +33906,14 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/item/tank/internals/anesthetic{
+	pixel_x = -2;
+	pixel_y = -17
+	},
+/obj/item/clothing/mask/breath{
+	pixel_x = 7;
+	pixel_y = -21
+	},
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "brD" = (

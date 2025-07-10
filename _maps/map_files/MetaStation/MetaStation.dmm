@@ -33607,11 +33607,12 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/external{
-	req_access_txt = "13"
-	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
+	},
+/obj/machinery/door/airlock/external{
+	dir = 4;
+	req_access_txt = "13"
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
@@ -33625,14 +33626,15 @@
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "cwi" = (
-/obj/machinery/door/airlock/external{
-	req_access_txt = "13"
-	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
+	},
+/obj/machinery/door/airlock/external{
+	dir = 4;
+	req_access_txt = "13"
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
@@ -40096,6 +40098,14 @@
 /obj/structure/window/reinforced{
 	dir = 1;
 	pixel_y = 1
+	},
+/obj/item/tank/internals/anesthetic{
+	pixel_x = -1;
+	pixel_y = -15
+	},
+/obj/item/clothing/mask/breath{
+	pixel_x = -2;
+	pixel_y = -16
 	},
 /turf/open/floor/plasteel/white/side{
 	dir = 8
@@ -59061,6 +59071,7 @@
 /area/engineering/atmos)
 "jji" = (
 /obj/machinery/door/airlock/external{
+	dir = 4;
 	req_access_txt = "13"
 	},
 /turf/open/floor/plating,
