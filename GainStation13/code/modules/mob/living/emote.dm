@@ -68,6 +68,7 @@
 	key = "brap"
 	key_third_person = "braps"
 	message = ""
+	noise_type = "brap"
 	reduction_min = 6
 	reduction_max = 12
 
