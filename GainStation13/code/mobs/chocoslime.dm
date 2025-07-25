@@ -165,3 +165,73 @@
 
 /mob/living/simple_animal/hostile/fatten/check_target_prefs(mob/living/carbon/target)
 	return target?.client?.prefs?.weight_gain_magic
+
+/mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast/cream_demon
+	name = "Cream Demon"
+	desc = "A strange mass of thick, creamy ice cream given some sense of instinct. This one seems better put together, as though it was sculpted by an artist, and it glows with a demonic power."
+	move_to_delay = 7
+	projectiletype = /obj/item/projectile/beam/fattening/icecream/strong
+	ranged_cooldown_time = 20
+	speed = 2.5
+	maxHealth = 250
+	health = 250
+	vision_range = 7
+	charger = 1
+	charge_frequency = 10 SECONDS
+	//galbanic attack
+	/*var/maximum_reagent_storage = 10
+	var/special_reagent_stored = 10
+	var/special_reagent = /datum/reagent/fermi_fat
+	var/special_feed_amount = 1
+	var/normal_reagent = /datum/reagent/consumable/lipoifier
+	var/normal_feed_amount = 5*/
+
+/obj/item/projectile/beam/fattening/icecream/strong
+	ricochets_max = 1
+	ricochet_chance = 50
+	food_fed = /datum/reagent/consumable/lipoifier
+	food_per_feeding = 5
+	fullness_add = 60
+	fat_added = 0
+
+
+//Turns your fat into permafat. Watch out!
+/mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast/cream_demon/AttackingTarget()
+	. = ..()
+	var/mob/living/carbon/L = target
+	if(istype(L) && L.client?.prefs?.weight_gain_permanent)
+		if(L.fatness_real > 10)
+			L.fatness_real = L.fatness_real - 10
+			L.fatness_perma += 1
+			to_chat(target, "<span class='notice'>You feel yourself getting.. smaller?</span>")
+		else
+			L.adjustToxLoss(5, 0)
+			to_chat(target, "<span class='userdanger'>You've run out of fat to burn! Your organs feel on fire!</span>")
+
+/mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast/cream_demon/attack_hand(mob/living/user, act_intent = user.a_intent)
+	. = ..()
+	if (ishuman(user) && user.has_dna() && act_intent == "help")
+		if(user.cursed_fat)
+			to_chat(user, "<span class='notice'>You've already received the blessing of this demon. If you want more, you'll have to exhaust the blessing first.</span>")
+		else
+			user.cursed_fat = 1
+			user.fattening_steps_left += 200
+			to_chat(user, "<span class='notice'>As you embrace the creature, a warmth passes you as it passes onto you its cursed blessing. You feel a strange, warm sensation inside, growing stronger the more you move...</span>")
+
+/mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast/cream_demon/PickTarget(list/Targets)
+	if(target != null)//If we already have a target, but are told to pick again, calculate the lowest distance between all possible, and pick from the lowest distance targets
+		for(var/pos_targ in Targets)
+			var/atom/A = pos_targ
+			to_chat(A, "<span class='notice'>you've been put up for picking!!</span>")
+			var/target_dist = get_dist(targets_from, target)
+			var/possible_target_distance = get_dist(targets_from, A)
+			if(target_dist < possible_target_distance)
+				Targets -= A
+			var/mob/living/fatty = A
+			if(istype(fatty) && fatty.cursed_fat)
+				to_chat(A, "<span class='notice'>you've been spared due to your awesome fattiness</span>")
+				Targets -= A
+	if(!Targets.len)//We didnt find nothin!
+		return
+	var/chosen_target = pick(Targets)//Pick the remaining targets (if any) at random
+	return chosen_target
