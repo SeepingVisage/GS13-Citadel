@@ -169,6 +169,8 @@
 /mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast/cream_demon
 	name = "Cream Demon"
 	desc = "A strange mass of thick, creamy ice cream given some sense of instinct. This one seems better put together, as though it was sculpted by an artist, and it glows with a demonic power."
+	icon_state = "creamdemon"
+	icon_living = "creamdemon"
 	move_to_delay = 7
 	projectiletype = /obj/item/projectile/beam/fattening/icecream/strong
 	ranged_cooldown_time = 20
@@ -178,13 +180,6 @@
 	vision_range = 7
 	charger = 1
 	charge_frequency = 10 SECONDS
-	//galbanic attack
-	/*var/maximum_reagent_storage = 10
-	var/special_reagent_stored = 10
-	var/special_reagent = /datum/reagent/fermi_fat
-	var/special_feed_amount = 1
-	var/normal_reagent = /datum/reagent/consumable/lipoifier
-	var/normal_feed_amount = 5*/
 
 /obj/item/projectile/beam/fattening/icecream/strong
 	ricochets_max = 1
@@ -193,7 +188,6 @@
 	food_per_feeding = 5
 	fullness_add = 60
 	fat_added = 0
-
 
 //Turns your fat into permafat. Watch out!
 /mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast/cream_demon/AttackingTarget()
